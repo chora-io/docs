@@ -1,0 +1,11 @@
+.description {
+	font-size: 1.5rem !important;
+	font-style: italic;
+}
+
+@media (min-width: 958px) {
+
+	main.page {
+		margin-top: 2rem;
+	}
+}

@@ -1,0 +1,18 @@
+:root {
+    --c-brand: #3CA;
+    --c-brand-light: #3CA;
+    --c-bg: #FFF;
+    --c-bg-light: #FFF;
+    --c-bg-lighter: #FFF;
+    --c-bg-navbar: var(--c-bg);
+    --c-bg-sidebar: var(--c-bg);
+    --c-bg-arrow: #CCC;
+    --c-text: #333;
+    --c-text-accent: var(--c-brand);
+    --c-text-light: #3CA;
+    --c-text-lighter: #333;
+    --c-text-lightest: #333;
+    --c-text-quote: #999;
+    --c-border: #EEE;
+    --c-border-dark: #DDD;
+}

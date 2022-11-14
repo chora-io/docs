@@ -1,0 +1,22 @@
+{
+  "name": "docs",
+  "private": true,
+  "description": "research and technical documentation",
+  "version": "0.0.0",
+  "homepage": "https://docs.chora.io",
+  "bugs": {
+    "url": "https://github.com/choraio/docs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/choraio/docs"
+  },
+  "scripts": {
+    "start": "vuepress dev src",
+    "build": "vuepress build src",
+    "deploy": "sh ./deploy.sh"
+  },
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.53"
+  }
+}
