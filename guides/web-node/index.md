@@ -1,10 +1,10 @@
 # Introduction
 
-The [geo](https://chora.io/geo) demo application provides a simple user interface that enables the creation of geospatial nodes, the fundamental building block of geospatial data management.
+The [node](https://chora.io/node) demo application provides a simple user interface that enables the creation of geospatial nodes, the fundamental building block of geospatial data management.
 
 ## Overview
 
-This guide will walk through the creation and management of geospatial nodes using the [geo](https://chora.io/geo) demo application. In this guide, you will learn about the following:
+This guide will walk through the creation and management of geospatial nodes using the [node](https://chora.io/node) demo application. In this guide, you will learn about the following:
 
 1. Creating nodes
 2. Updating nodes

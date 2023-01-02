@@ -1,10 +1,10 @@
 # Introduction
 
-The [dao](https://chora.io/dao) demo application provides a simple user interface that enables the creation of groups, the fundamental building blocks of DAOs within the chora framework.
+The [group](https://chora.io/group) demo application provides a simple user interface that enables the creation of groups, the fundamental building blocks of DAOs within the chora framework.
 
 ## Overview
 
-This guide will walk through the creation and management of a decentralized organization using the [dao](https://chora.io/dao) demo application. In this guide, you will learn about the following:
+This guide will walk through the creation and management of a decentralized organization using the [group](https://chora.io/group) demo application. In this guide, you will learn about the following:
 
 1. Creating groups
 2. Creating decision policies
