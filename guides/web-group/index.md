@@ -24,4 +24,4 @@ You will need to have a test account that you can use with `chora-testnet-1`. Th
 
 ### Tokens
 
-You will need to have testnet tokens available in your test account. You can use the [testnet faucet](https://testnet.chora.io/faucet) to receive tokens. The faucet only works if your balance is less than the distribution amount. You can request tokens from the faucet up to three times within a 24-hour period.
+You will need to have testnet tokens available in your test account. You can use the [testnet faucet](https://chora.io/faucet) to receive tokens. The faucet only works if your balance is less than the distribution amount. You can request tokens from the faucet up to three times within a 24-hour period.
