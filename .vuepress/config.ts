@@ -50,6 +50,10 @@ export default defineUserConfig({
             text: 'Geonode Module',
             link: '/specs/geonode/README.md',
           },
+          {
+            text: 'Voucher Module',
+            link: '/specs/voucher/README.md',
+          },
         ],
       },
     ],
@@ -120,6 +124,18 @@ export default defineUserConfig({
             '/specs/geonode/03_query.md',
             '/specs/geonode/04_state.md',
             '/specs/geonode/05_events.md',
+          ]
+        },
+        {
+          text: 'Voucher Module',
+          collapsible: true,
+          children: [
+            '/specs/voucher/README.md',
+            '/specs/voucher/01_concepts.md',
+            '/specs/voucher/02_msg.md',
+            '/specs/voucher/03_query.md',
+            '/specs/voucher/04_state.md',
+            '/specs/voucher/05_events.md',
           ]
         },
       ],
