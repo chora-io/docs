@@ -4,11 +4,13 @@ set -e
 
 SPECS_DIR=./specs
 
-CHORA_CONTENT_VERSION=dd0d94b50dd400de46203d81b08a4cad0dc7ecf0
-CHORA_GEONODE_VERSION=dd0d94b50dd400de46203d81b08a4cad0dc7ecf0
+CHORA_CONTENT_VERSION=f817bc85dc14ee100e15983f4d113d6316ab497b
+CHORA_GEONODE_VERSION=f817bc85dc14ee100e15983f4d113d6316ab497b
+CHORA_VOUCHER_VERSION=f817bc85dc14ee100e15983f4d113d6316ab497b
 
 CHORA_CONTENT_URL=https://raw.githubusercontent.com/choraio/mods/${CHORA_CONTENT_VERSION}/content/spec
 CHORA_GEONODE_URL=https://raw.githubusercontent.com/choraio/mods/${CHORA_GEONODE_VERSION}/geonode/spec
+CHORA_VOUCHER_URL=https://raw.githubusercontent.com/choraio/mods/${CHORA_GEONODE_VERSION}/voucher/spec
 
 gen_module_docs() {
 
@@ -29,3 +31,4 @@ gen_module_docs() {
 
 gen_module_docs "content" $CHORA_CONTENT_URL
 gen_module_docs "geonode" $CHORA_GEONODE_URL
+gen_module_docs "voucher" $CHORA_VOUCHER_URL
