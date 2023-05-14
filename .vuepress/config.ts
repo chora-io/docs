@@ -22,16 +22,12 @@ export default defineUserConfig({
             link: '/guides/index.md',
           },
           {
-            text: 'Data Demo',
+            text: 'Data Application',
             link: '/guides/web-data/index.md',
           },
           {
-            text: 'Group Demo',
-            link: '/guides/web-group/index.md',
-          },
-          {
-            text: 'Node Demo',
-            link: '/guides/web-node/index.md',
+            text: 'Mods Application',
+            link: '/guides/web-mods/index.md',
           },
         ],
       },
@@ -61,7 +57,7 @@ export default defineUserConfig({
       '/guides/': [
         {
           text: 'Overview',
-          collapsible: false,
+          collapsible: true,
           children: [
             '/guides/index.md',
             '/guides/software.md',
@@ -70,27 +66,42 @@ export default defineUserConfig({
           ],
         },
         {
-          text: 'Data Demo',
+          text: 'Data Application',
           collapsible: true,
           children: [
             '/guides/web-data/index.md',
-            '/guides/web-data/generate_hash.md',
+            '/guides/web-data/post_data.md',
           ],
         },
         {
-          text: 'Group Demo',
+          text: 'Mods Application',
           collapsible: true,
           children: [
-            '/guides/web-group/index.md',
-            '/guides/web-group/create_group.md',
-          ],
-        },
-        {
-          text: 'Node Demo',
-          collapsible: true,
-          children: [
-            '/guides/web-node/index.md',
-            '/guides/web-node/create_node.md',
+            '/guides/web-mods/index.md',
+            {
+              text: 'Data Module',
+              collapsible: true,
+              children: [
+                '/guides/web-mods/data/index.md',
+                '/guides/web-mods/data/msg_anchor.md',
+              ],
+            },
+            {
+              text: 'Geonode Module',
+              collapsible: true,
+              children: [
+                '/guides/web-mods/geonode/index.md',
+                '/guides/web-mods/geonode/msg_create.md',
+              ],
+            },
+            {
+              text: 'Group Module',
+              collapsible: true,
+              children: [
+                '/guides/web-mods/group/index.md',
+                '/guides/web-mods/group/msg_create_group.md',
+              ],
+            },
           ],
         },
       ],

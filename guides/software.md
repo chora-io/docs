@@ -14,11 +14,11 @@ All software associated with this project is beta software and therefore should 
 
 ## web
 
-[web](https://github.com/choraio/web) - website and application interfaces
+[web](https://github.com/choraio/web) - webkit and application interfaces
 
 ## server
 
-[server](https://github.com/choraio/server) - server and postgres database
+[server](https://github.com/choraio/server) - server modules and postgres database
 
 ## schema
 

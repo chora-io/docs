@@ -6,17 +6,21 @@
 
 User interfaces are provided for general users.
 
+### coop
+
+[coop](https://chora.io/coop) is an application for Chora Cooperative.
+
 ### data
 
-[data](https://chora.io/data) is a demo application for managing data.
+[data](https://chora.io/data) is an application for data management.
 
-### group
+### mods
 
-[group](https://chora.io/group) is a demo application for managing groups.
+[mods](https://chora.io/mods) is an application for blockchain modules.
 
-### node
+### scan
 
-[node](https://chora.io/node) is a demo application for managing geospatial nodes.
+[scan](https://chora.io/scan) is an application for blockchain networks.
 
 ## Application Interfaces
 
@@ -24,12 +28,12 @@ Application interfaces are provided for developers.
 
 ### chora
 
-[https://testnet.chora.io/](https://testnet.chora.io/) is serving test endpoints for [chora](https://github.com/choraio/chora).
+[https://testnet.chora.io/](https://testnet.chora.io/) is serving endpoints for [chora](https://github.com/choraio/chora).
 
 ### server
 
-[https://server.chora.io/](https://server.chora.io/) is serving test endpoints for [server](https://github.com/choraio/server).
+[https://server.chora.io/](https://server.chora.io/) is serving endpoints for [server](https://github.com/choraio/server).
 
 ### schema
 
-[https://schema.chora.io/](https://schema.chora.io/) is serving test endpoints for [schema](https://github.com/choraio/schema).
+[https://schema.chora.io/](https://schema.chora.io/) is serving endpoints for [schema](https://github.com/choraio/schema).
