@@ -22,12 +22,20 @@ export default defineUserConfig({
             link: '/guides/index.md',
           },
           {
-            text: 'Data Application',
+            text: 'Coop App',
+            link: '/guides/web-coop/index.md',
+          },
+          {
+            text: 'Data App',
             link: '/guides/web-data/index.md',
           },
           {
-            text: 'Mods Application',
+            text: 'Mods App',
             link: '/guides/web-mods/index.md',
+          },
+          {
+            text: 'Scan App',
+            link: '/guides/web-scan/index.md',
           },
         ],
       },
@@ -66,7 +74,14 @@ export default defineUserConfig({
           ],
         },
         {
-          text: 'Data Application',
+          text: 'Coop App',
+          collapsible: true,
+          children: [
+            '/guides/web-coop/index.md',
+          ],
+        },
+        {
+          text: 'Data App',
           collapsible: true,
           children: [
             '/guides/web-data/index.md',
@@ -74,7 +89,7 @@ export default defineUserConfig({
           ],
         },
         {
-          text: 'Mods Application',
+          text: 'Mods App',
           collapsible: true,
           children: [
             '/guides/web-mods/index.md',
@@ -102,6 +117,13 @@ export default defineUserConfig({
                 '/guides/web-mods/group/msg_create_group.md',
               ],
             },
+          ],
+        },
+        {
+          text: 'Scan App',
+          collapsible: true,
+          children: [
+            '/guides/web-scan/index.md',
           ],
         },
       ],
