@@ -4,12 +4,14 @@ set -e
 
 SPECS_DIR=./specs
 
-CHORA_CONTENT_VERSION=a302a70db0b41f07b69957ce42c72b21d2e829d1
-CHORA_GEONODE_VERSION=a302a70db0b41f07b69957ce42c72b21d2e829d1
-CHORA_VOUCHER_VERSION=a302a70db0b41f07b69957ce42c72b21d2e829d1
+CHORA_CONTENT_VERSION=3539a68c301a104577a4ec0dcced72e65a676868
+CHORA_GEONODE_VERSION=3539a68c301a104577a4ec0dcced72e65a676868
+CHORA_VALIDATOR_VERSION=3539a68c301a104577a4ec0dcced72e65a676868
+CHORA_VOUCHER_VERSION=3539a68c301a104577a4ec0dcced72e65a676868
 
 CHORA_CONTENT_URL=https://raw.githubusercontent.com/choraio/mods/${CHORA_CONTENT_VERSION}/content/spec
 CHORA_GEONODE_URL=https://raw.githubusercontent.com/choraio/mods/${CHORA_GEONODE_VERSION}/geonode/spec
+CHORA_VALIDATOR_URL=https://raw.githubusercontent.com/choraio/mods/${CHORA_VALIDATOR_VERSION}/validator/spec
 CHORA_VOUCHER_URL=https://raw.githubusercontent.com/choraio/mods/${CHORA_GEONODE_VERSION}/voucher/spec
 
 gen_module_docs() {
@@ -31,4 +33,5 @@ gen_module_docs() {
 
 gen_module_docs "content" $CHORA_CONTENT_URL
 gen_module_docs "geonode" $CHORA_GEONODE_URL
+gen_module_docs "validator" $CHORA_VALIDATOR_URL
 gen_module_docs "voucher" $CHORA_VOUCHER_URL
