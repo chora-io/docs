@@ -55,6 +55,10 @@ export default defineUserConfig({
             link: '/specs/geonode/README.md',
           },
           {
+            text: 'Validator Module',
+            link: '/specs/validator/README.md',
+          },
+          {
             text: 'Voucher Module',
             link: '/specs/voucher/README.md',
           },
@@ -157,6 +161,18 @@ export default defineUserConfig({
             '/specs/geonode/03_query.md',
             '/specs/geonode/04_state.md',
             '/specs/geonode/05_events.md',
+          ]
+        },
+        {
+          text: 'Validator Module',
+          collapsible: true,
+          children: [
+            '/specs/validator/README.md',
+            '/specs/validator/01_concepts.md',
+            '/specs/validator/02_msg.md',
+            '/specs/validator/03_query.md',
+            '/specs/validator/04_state.md',
+            '/specs/validator/05_events.md',
           ]
         },
         {
