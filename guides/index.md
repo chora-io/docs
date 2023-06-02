@@ -1,5 +1,8 @@
 # Welcome
 
-[Chora](https://chora.io/) may or may not be many things but for now chora is a research project.
+We are prototyping software tools and services for commons governance and ecological regeneration using distributed ledger technologies.
 
-All conceptions aside, research so far has included prototyping a software stack that aims to provide tools and services for commons governance and ecological regeneration.
+We also run a validator on [Regen](https://www.mintscan.io/regen/validators/regenvaloper1t8p3zdu3h8qzggfmvvvmtdnaj4trcsfh79xp4e) in addition to multiple validators on test networks including Chora Testnet and Regen Redwood.
+
+- [learn more](https://chora.notion.site/chora-learn-more-f188f982c4c34792b067e644810a488d)
+- [main website](https://chora.io/)
