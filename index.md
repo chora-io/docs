@@ -7,15 +7,15 @@ heroImageDark: images/chora_trans_dark_small.png
 tagline: user guides and technical documentation
 features:
 - title: chora
-  details: proof-of-stake blockchain application
+  details: chora blockchain application
 - title: mods
-  details: blockchain application modules
+  details: chora blockchain modules
 - title: web
-  details: website and application interfaces
+  details: chora webkit and user interfaces
 - title: server
-  details: data server and postgres database
+  details: chora server and database
 - title: schema
-  details: linked data schemas and examples
+  details: chora schemas and validation
 - title: bions
   details: blockchain application templates
 ---

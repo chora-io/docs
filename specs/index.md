@@ -1,6 +1,6 @@
 # Table of Contents
 
-[Chora](https://chora.io/) specifications for blockchain application modules.
+Specifications for chora blockchain modules.
 
 - [Content Module](./content/README.md)
 - [Geonode Module](./geonode/README.md)

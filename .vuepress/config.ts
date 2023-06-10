@@ -89,7 +89,6 @@ export default defineUserConfig({
           collapsible: true,
           children: [
             '/guides/web-data/index.md',
-            '/guides/web-data/post_data.md',
           ],
         },
         {
@@ -97,30 +96,6 @@ export default defineUserConfig({
           collapsible: true,
           children: [
             '/guides/web-mods/index.md',
-            {
-              text: 'Data Module',
-              collapsible: true,
-              children: [
-                '/guides/web-mods/data/index.md',
-                '/guides/web-mods/data/msg_anchor.md',
-              ],
-            },
-            {
-              text: 'Geonode Module',
-              collapsible: true,
-              children: [
-                '/guides/web-mods/geonode/index.md',
-                '/guides/web-mods/geonode/msg_create.md',
-              ],
-            },
-            {
-              text: 'Group Module',
-              collapsible: true,
-              children: [
-                '/guides/web-mods/group/index.md',
-                '/guides/web-mods/group/msg_create_group.md',
-              ],
-            },
           ],
         },
         {

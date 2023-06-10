@@ -6,23 +6,23 @@ All software associated with this project is beta software and therefore should 
 
 ## chora
 
-[chora](https://github.com/choraio/chora) - proof-of-stake blockchain application
+[chora](https://github.com/choraio/chora) - chora blockchain application
 
 ## mods
 
-[mods](https://github.com/choraio/mods) - blockchain application modules
+[mods](https://github.com/choraio/mods) - chora blockchain modules
 
 ## web
 
-[web](https://github.com/choraio/web) - webkit and application interfaces
+[web](https://github.com/choraio/web) - chora webkit and user interfaces
 
 ## server
 
-[server](https://github.com/choraio/server) - server modules and postgres database
+[server](https://github.com/choraio/server) - chora server and database
 
 ## schema
 
-[schema](https://github.com/choraio/schema) - linked data schemas and examples
+[schema](https://github.com/choraio/schema) - chora schemas and validation
 
 ## bion-pos
 
