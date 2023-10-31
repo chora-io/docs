@@ -3,7 +3,7 @@ import { defaultTheme, defineUserConfig } from 'vuepress'
 const { description } = require('../package')
 
 export default defineUserConfig({
-  title: 'chora docs',
+  title: 'chora documentation',
   description: description,
   theme: defaultTheme({
     colorMode: 'dark',
