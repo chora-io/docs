@@ -1,6 +1,6 @@
 # docs
 
-user guides and technical documentation
+user guides and technical specifications
 
 ## Prerequisites
 

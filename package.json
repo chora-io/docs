@@ -1,7 +1,7 @@
 {
   "name": "docs",
   "private": true,
-  "description": "user guides and technical documentation",
+  "description": "user guides and technical specifications",
   "version": "0.0.0",
   "homepage": "https://docs.chora.io",
   "bugs": {

@@ -1,9 +1,5 @@
 # Software
 
-:::warning
-All software associated with this project is beta software and therefore should not be used in production. Please wait for an official release before using the software in production.
-:::
-
 ## chora
 
 [chora](https://github.com/choraio/chora) - chora blockchain application
@@ -14,7 +10,7 @@ All software associated with this project is beta software and therefore should 
 
 ## web
 
-[web](https://github.com/choraio/web) - chora webkit and user interfaces
+[web](https://github.com/choraio/web) - chora webkit and applications
 
 ## server
 

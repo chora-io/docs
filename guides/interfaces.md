@@ -1,10 +1,6 @@
 # Interfaces
 
-[Chora](https://chora.io/) provides the following interfaces.
-
 ## User Interfaces
-
-User interfaces are provided for general users.
 
 ### coop
 
@@ -23,8 +19,6 @@ User interfaces are provided for general users.
 [scan](https://chora.io/scan) is an application for blockchain networks.
 
 ## Application Interfaces
-
-Application interfaces are provided for developers.
 
 ### chora
 

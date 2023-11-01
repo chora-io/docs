@@ -74,7 +74,6 @@ export default defineUserConfig({
             '/guides/index.md',
             '/guides/software.md',
             '/guides/interfaces.md',
-            '/guides/networks.md',
           ],
         },
         {
