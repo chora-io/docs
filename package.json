@@ -5,11 +5,11 @@
   "version": "0.0.0",
   "homepage": "https://docs.chora.io",
   "bugs": {
-    "url": "https://github.com/choraio/docs/issues"
+    "url": "https://github.com/chora-io/docs/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/choraio/docs"
+    "url": "https://github.com/chora-io/docs"
   },
   "scripts": {
     "dev": "vuepress dev",

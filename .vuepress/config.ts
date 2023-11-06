@@ -12,7 +12,7 @@ export default defineUserConfig({
     lastUpdated: false,
     logo: 'images/chora_trans_light_small.png',
     logoDark: 'images/chora_trans_dark_small.png',
-    repo: 'choraio',
+    repo: 'chora-io',
     navbar: [
       {
         text: 'Guides',
@@ -72,8 +72,8 @@ export default defineUserConfig({
           collapsible: true,
           children: [
             '/guides/index.md',
-            '/guides/software.md',
             '/guides/interfaces.md',
+            '/guides/software.md',
           ],
         },
         {

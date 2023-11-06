@@ -2,28 +2,28 @@
 
 ## chora
 
-[chora](https://github.com/choraio/chora) - chora blockchain application
+[chora](https://github.com/chora-io/chora) - chora blockchain application
 
 ## mods
 
-[mods](https://github.com/choraio/mods) - chora blockchain modules
+[mods](https://github.com/chora-io/mods) - chora blockchain modules
 
 ## web
 
-[web](https://github.com/choraio/web) - chora webkit and applications
+[web](https://github.com/chora-io/web) - chora webkit and applications
 
 ## server
 
-[server](https://github.com/choraio/server) - chora server and database
+[server](https://github.com/chora-io/server) - chora server and database
 
 ## schema
 
-[schema](https://github.com/choraio/schema) - chora schemas and validation
+[schema](https://github.com/chora-io/schema) - chora schemas and validation
 
 ## bion-pos
 
-[bion-pos](https://github.com/choraio/bion-pos) - proof-of-stake blockchain template
+[bion-pos](https://github.com/chora-io/bion-pos) - proof-of-stake blockchain template
 
 ## bion-poa
 
-[bion-poa](https://github.com/choraio/bion-poa) - proof-of-authority blockchain template
+[bion-poa](https://github.com/chora-io/bion-poa) - proof-of-authority blockchain template

@@ -12,4 +12,4 @@ git init
 git add -A
 git commit -m 'publish'
 
-git push https://github.com/choraio/docs master:gh-pages -f
+git push https://github.com/chora-io/docs master:gh-pages -f

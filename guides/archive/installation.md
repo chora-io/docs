@@ -9,10 +9,10 @@ In order to run blockchain clients built with the Cosmos SDK, you will need the 
 
 ## Install Chora
 
-From a working directory, clone the remote repository for [chora-chain](https://github.com/choraio/chora-chain).
+From a working directory, clone the remote repository for [chora-chain](https://github.com/chora-io/chora-chain).
 
 ```sh
-git clone https://github.com/choraio/chora-chain
+git clone https://github.com/chora-io/chora-chain
 ```
 
 After you have cloned the remote repository, change to the local directory.

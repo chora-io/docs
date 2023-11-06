@@ -9,10 +9,10 @@ CHORA_GEONODE_VERSION=015ffa80b358bd3e140f0ea79749b1fd1d7609c5
 CHORA_VALIDATOR_VERSION=015ffa80b358bd3e140f0ea79749b1fd1d7609c5
 CHORA_VOUCHER_VERSION=015ffa80b358bd3e140f0ea79749b1fd1d7609c5
 
-CHORA_CONTENT_URL=https://raw.githubusercontent.com/choraio/mods/${CHORA_CONTENT_VERSION}/content/spec
-CHORA_GEONODE_URL=https://raw.githubusercontent.com/choraio/mods/${CHORA_GEONODE_VERSION}/geonode/spec
-CHORA_VALIDATOR_URL=https://raw.githubusercontent.com/choraio/mods/${CHORA_VALIDATOR_VERSION}/validator/spec
-CHORA_VOUCHER_URL=https://raw.githubusercontent.com/choraio/mods/${CHORA_GEONODE_VERSION}/voucher/spec
+CHORA_CONTENT_URL=https://raw.githubusercontent.com/chora-io/mods/${CHORA_CONTENT_VERSION}/content/spec
+CHORA_GEONODE_URL=https://raw.githubusercontent.com/chora-io/mods/${CHORA_GEONODE_VERSION}/geonode/spec
+CHORA_VALIDATOR_URL=https://raw.githubusercontent.com/chora-io/mods/${CHORA_VALIDATOR_VERSION}/validator/spec
+CHORA_VOUCHER_URL=https://raw.githubusercontent.com/chora-io/mods/${CHORA_GEONODE_VERSION}/voucher/spec
 
 gen_module_docs() {
 
