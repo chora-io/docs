@@ -22,7 +22,7 @@ gen_module_docs() {
 
   echo "$1 version $CHORA_CONTENT_VERSION"
 
-  curl -o "$SPECS_DIR/$1/README.md"       -sfL "$2/README.md"
+  curl -o "$SPECS_DIR/$1/index.md"        -sfL "$2/README.md"
   curl -o "$SPECS_DIR/$1/01_concepts.md"  -sfL "$2/01_concepts.md"
   curl -o "$SPECS_DIR/$1/02_msg.md"       -sfL "$2/02_msg.md"
   curl -o "$SPECS_DIR/$1/03_query.md"     -sfL "$2/03_query.md"

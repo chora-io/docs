@@ -3,7 +3,7 @@ import { defaultTheme, defineUserConfig } from 'vuepress'
 const { description } = require('../package')
 
 export default defineUserConfig({
-  title: 'chora documentation',
+  title: 'chora docs',
   description: description,
   theme: defaultTheme({
     colorMode: 'dark',
@@ -18,24 +18,43 @@ export default defineUserConfig({
         text: 'Guides',
         children: [
           {
-            text: 'Overview',
-            link: '/guides/index.md',
+            text: 'Guidebook',
+            children: [
+              {
+                text: 'Overview',
+                link: '/guides/index.md',
+              },
+            ],
           },
           {
-            text: 'Coop App',
-            link: '/guides/web-coop/index.md',
+            text: 'User Guides',
+            children: [
+              {
+                text: 'Get Started',
+                link: '/guides/get-started.md',
+              },
+              {
+                text: 'Chora Coop',
+                link: '/guides/coop/index.md',
+              },
+              {
+                text: 'Chora Registry',
+                link: '/guides/registry/index.md',
+              },
+              {
+                text: 'Chora Ledger',
+                link: '/guides/ledger/index.md',
+              },
+            ],
           },
           {
-            text: 'Data App',
-            link: '/guides/web-data/index.md',
-          },
-          {
-            text: 'Mods App',
-            link: '/guides/web-mods/index.md',
-          },
-          {
-            text: 'Scan App',
-            link: '/guides/web-scan/index.md',
+            text: 'Developer Guides',
+            children: [
+              {
+                text: 'Software Stack',
+                link: '/guides/stack/index.md',
+              },
+            ],
           },
         ],
       },
@@ -43,24 +62,43 @@ export default defineUserConfig({
         text: 'Specs',
         children: [
           {
-            text: 'Overview',
-            link: '/specs/index.md',
+            text: 'Specifications',
+            children: [
+              {
+                text: 'Table of Contents',
+                link: '/specs/index.md',
+              },
+            ],
           },
           {
-            text: 'Content Module',
-            link: '/specs/content/README.md',
+            text: 'Blockchain App',
+            children: [
+              {
+                text: 'Chora Application',
+                link: '/specs/chora/index.md',
+              },
+            ],
           },
           {
-            text: 'Geonode Module',
-            link: '/specs/geonode/README.md',
-          },
-          {
-            text: 'Validator Module',
-            link: '/specs/validator/README.md',
-          },
-          {
-            text: 'Voucher Module',
-            link: '/specs/voucher/README.md',
+            text: 'Blockchain Modules',
+            children: [
+              {
+                text: 'Content Module',
+                link: '/specs/content/index.md',
+              },
+              {
+                text: 'Geonode Module',
+                link: '/specs/geonode/index.md',
+              },
+              {
+                text: 'Validator Module',
+                link: '/specs/validator/index.md',
+              },
+              {
+                text: 'Voucher Module',
+                link: '/specs/voucher/index.md',
+              },
+            ],
           },
         ],
       },
@@ -68,98 +106,114 @@ export default defineUserConfig({
     sidebar: {
       '/guides/': [
         {
-          text: 'Overview',
-          collapsible: true,
+          text: 'Guidebook',
           children: [
             '/guides/index.md',
-            '/guides/interfaces.md',
-            '/guides/software.md',
           ],
         },
         {
-          text: 'Coop App',
-          collapsible: true,
+          text: 'User Guides',
           children: [
-            '/guides/web-coop/index.md',
+            {
+              text: 'Get Started',
+              link: '/guides/get-started.md',
+            },
+            {
+              text: 'Chora Coop',
+              collapsible: true,
+              children: ['/guides/coop/index.md'],
+            },
+            {
+              text: 'Chora Registry',
+              collapsible: true,
+              children: ['/guides/registry/index.md'],
+            },
+            {
+              text: 'Chora Ledger',
+              collapsible: true,
+              children: ['/guides/ledger/index.md'],
+            },
           ],
         },
         {
-          text: 'Data App',
-          collapsible: true,
+          text: 'Developer Guides',
           children: [
-            '/guides/web-data/index.md',
-          ],
-        },
-        {
-          text: 'Mods App',
-          collapsible: true,
-          children: [
-            '/guides/web-mods/index.md',
-          ],
-        },
-        {
-          text: 'Scan App',
-          collapsible: true,
-          children: [
-            '/guides/web-scan/index.md',
+            {
+              text: 'Software Stack',
+              collapsible: true,
+              children: [
+                '/guides/stack/index.md',
+                '/guides/stack/interfaces.md',
+              ],
+            },
           ],
         },
       ],
       '/specs/': [
         {
-          text: 'Overview',
-          collapsible: false,
+          text: 'Specifications',
           children: [
             '/specs/index.md',
-          ]
+          ],
         },
         {
-          text: 'Content Module',
-          collapsible: true,
+          text: 'Blockchain App',
           children: [
-            '/specs/content/README.md',
-            '/specs/content/01_concepts.md',
-            '/specs/content/02_msg.md',
-            '/specs/content/03_query.md',
-            '/specs/content/04_state.md',
-            '/specs/content/05_events.md',
-          ]
+            '/specs/chora/index.md',
+          ],
         },
         {
-          text: 'Geonode Module',
-          collapsible: true,
+          text: 'Blockchain Modules',
           children: [
-            '/specs/geonode/README.md',
-            '/specs/geonode/01_concepts.md',
-            '/specs/geonode/02_msg.md',
-            '/specs/geonode/03_query.md',
-            '/specs/geonode/04_state.md',
-            '/specs/geonode/05_events.md',
-          ]
-        },
-        {
-          text: 'Validator Module',
-          collapsible: true,
-          children: [
-            '/specs/validator/README.md',
-            '/specs/validator/01_concepts.md',
-            '/specs/validator/02_msg.md',
-            '/specs/validator/03_query.md',
-            '/specs/validator/04_state.md',
-            '/specs/validator/05_events.md',
-          ]
-        },
-        {
-          text: 'Voucher Module',
-          collapsible: true,
-          children: [
-            '/specs/voucher/README.md',
-            '/specs/voucher/01_concepts.md',
-            '/specs/voucher/02_msg.md',
-            '/specs/voucher/03_query.md',
-            '/specs/voucher/04_state.md',
-            '/specs/voucher/05_events.md',
-          ]
+            {
+              text: 'Content Module',
+              collapsible: true,
+              children: [
+                '/specs/content/index.md',
+                '/specs/content/01_concepts.md',
+                '/specs/content/02_msg.md',
+                '/specs/content/03_query.md',
+                '/specs/content/04_state.md',
+                '/specs/content/05_events.md',
+              ],
+            },
+            {
+              text: 'Geonode Module',
+              collapsible: true,
+              children: [
+                '/specs/geonode/index.md',
+                '/specs/geonode/01_concepts.md',
+                '/specs/geonode/02_msg.md',
+                '/specs/geonode/03_query.md',
+                '/specs/geonode/04_state.md',
+                '/specs/geonode/05_events.md',
+              ],
+            },
+            {
+              text: 'Validator Module',
+              collapsible: true,
+              children: [
+                '/specs/validator/index.md',
+                '/specs/validator/01_concepts.md',
+                '/specs/validator/02_msg.md',
+                '/specs/validator/03_query.md',
+                '/specs/validator/04_state.md',
+                '/specs/validator/05_events.md',
+              ],
+            },
+            {
+              text: 'Voucher Module',
+              collapsible: true,
+              children: [
+                '/specs/voucher/index.md',
+                '/specs/voucher/01_concepts.md',
+                '/specs/voucher/02_msg.md',
+                '/specs/voucher/03_query.md',
+                '/specs/voucher/04_state.md',
+                '/specs/voucher/05_events.md',
+              ],
+            },
+          ],
         },
       ],
     },

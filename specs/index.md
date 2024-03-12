@@ -1,8 +1,18 @@
-# Table of Contents
+# Overview
 
-Specifications for chora blockchain modules.
+Technical specifications for Chora software.
 
-- [Content Module](./content/README.md)
-- [Geonode Module](./geonode/README.md)
-- [Validator Module](./validator/README.md)
-- [Voucher Module](./voucher/README.md)
+## Blockchain App
+
+Specification for Chora blockchain application.
+
+- [Chora Application](./chora/index.md)
+
+## Blockchain Modules
+
+Specifications for Chora blockchain modules.
+
+- [Content Module](./content/index.md)
+- [Geonode Module](./geonode/index.md)
+- [Validator Module](./validator/index.md)
+- [Voucher Module](./voucher/index.md)

@@ -1,24 +1,4 @@
-# Interfaces
-
-## User Interfaces
-
-### coop
-
-[coop](https://chora.io/coop) is an application for Chora Cooperative.
-
-### data
-
-[data](https://chora.io/data) is an application for data management.
-
-### mods
-
-[mods](https://chora.io/mods) is an application for blockchain modules.
-
-### scan
-
-[scan](https://chora.io/scan) is an application for blockchain networks.
-
-## Application Interfaces
+# API Endpoints
 
 ### chora
 

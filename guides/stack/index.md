@@ -1,4 +1,4 @@
-# Software
+# Repositories
 
 ## chora
 
@@ -20,10 +20,10 @@
 
 [schema](https://github.com/chora-io/schema) - chora schemas and validation
 
-## bion-pos
-
-[bion-pos](https://github.com/chora-io/bion-pos) - proof-of-stake blockchain template
-
 ## bion-poa
 
 [bion-poa](https://github.com/chora-io/bion-poa) - proof-of-authority blockchain template
+
+## bion-pos
+
+[bion-pos](https://github.com/chora-io/bion-pos) - proof-of-stake blockchain template
