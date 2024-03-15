@@ -1,6 +1,6 @@
 # Introduction
 
-The [Chora Registry](https://chora.io/registry) is a network governance dashboard.
+[Chora Registry](https://chora.io/registry) is a network governance dashboard.
 
 ## Overview
 

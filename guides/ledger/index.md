@@ -1,6 +1,6 @@
 # Introduction
 
-The [Chora Ledger](https://chora.io/ledger) is a network governance dashboard.
+[Chora Ledger](https://chora.io/ledger) is a network governance dashboard.
 
 ## Overview
 

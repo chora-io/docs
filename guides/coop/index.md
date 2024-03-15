@@ -1,6 +1,6 @@
 # Introduction
 
-The [Chora Coop](https://chora.io/coop) is a group governance workspace.
+[Chora Coop](https://chora.io/coop) is a group governance workspace.
 
 ## Overview
 

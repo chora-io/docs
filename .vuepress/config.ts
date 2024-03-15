@@ -143,7 +143,6 @@ export default defineUserConfig({
               collapsible: true,
               children: [
                 '/guides/stack/index.md',
-                '/guides/stack/interfaces.md',
               ],
             },
           ],
