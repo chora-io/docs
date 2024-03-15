@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-b9e349ee","path":"/specs/geonode/02_msg.html","title":"Msg Service","lang":"en-US","frontmatter":{},"headers":[{"level":2,"title":"Proto Definitions","slug":"proto-definitions","link":"#proto-definitions","children":[]}],"git":{},"filePathRelative":"specs/geonode/02_msg.md"}');export{e as data};

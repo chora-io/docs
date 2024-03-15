@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-6e67fbfc","path":"/specs/geonode/01_concepts.html","title":"Concepts","lang":"en-US","frontmatter":{},"headers":[{"level":2,"title":"Node","slug":"node","link":"#node","children":[]}],"git":{},"filePathRelative":"specs/geonode/01_concepts.md"}');export{e as data};

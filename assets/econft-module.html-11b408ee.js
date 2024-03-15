@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-7a1fc530","path":"/specs/archive/econft-module.html","title":"Econft Module","lang":"en-US","frontmatter":{},"headers":[{"level":2,"title":"Specification","slug":"specification","link":"#specification","children":[]}],"git":{},"filePathRelative":"specs/archive/econft-module.md"}');export{e as data};

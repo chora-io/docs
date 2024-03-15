@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-4468fbd3","path":"/specs/validator/05_events.html","title":"Events","lang":"en-US","frontmatter":{},"headers":[{"level":2,"title":"Proto Definitions","slug":"proto-definitions","link":"#proto-definitions","children":[]}],"git":{},"filePathRelative":"specs/validator/05_events.md"}');export{t as data};

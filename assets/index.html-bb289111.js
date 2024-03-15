@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-7ab994e3","path":"/guides/coop/","title":"Introduction","lang":"en-US","frontmatter":{},"headers":[{"level":2,"title":"Overview","slug":"overview","link":"#overview","children":[]},{"level":2,"title":"Prerequisites","slug":"prerequisites","link":"#prerequisites","children":[]}],"git":{},"filePathRelative":"guides/coop/index.md"}');export{e as data};

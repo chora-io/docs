@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-a2391146","path":"/specs/validator/01_concepts.html","title":"Concepts","lang":"en-US","frontmatter":{},"headers":[{"level":2,"title":"Validator","slug":"validator","link":"#validator","children":[]}],"git":{},"filePathRelative":"specs/validator/01_concepts.md"}');export{t as data};

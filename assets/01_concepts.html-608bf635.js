@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-28a52b81","path":"/specs/voucher/01_concepts.html","title":"Concepts","lang":"en-US","frontmatter":{},"headers":[{"level":2,"title":"Voucher","slug":"voucher","link":"#voucher","children":[]}],"git":{},"filePathRelative":"specs/voucher/01_concepts.md"}');export{e as data};

@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-24168728","path":"/guides/archive/ecodex-test-1.html","title":"Ecodex Test 1","lang":"en-US","frontmatter":{},"headers":[],"git":{},"filePathRelative":"guides/archive/ecodex-test-1.md"}');export{e as data};

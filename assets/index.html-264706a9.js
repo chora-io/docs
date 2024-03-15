@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-f9524b74","path":"/specs/chora/","title":"Chora Application","lang":"en-US","frontmatter":{},"headers":[],"git":{},"filePathRelative":"specs/chora/index.md"}');export{e as data};
