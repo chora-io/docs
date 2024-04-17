@@ -34,8 +34,8 @@ export default defineUserConfig({
                 link: '/guides/get-started.md',
               },
               {
-                text: 'Chora Coop',
-                link: '/guides/coop/index.md',
+                text: 'Chora Groups',
+                link: '/guides/groups/index.md',
               },
               {
                 text: 'Chora Registry',
@@ -119,9 +119,9 @@ export default defineUserConfig({
               link: '/guides/get-started.md',
             },
             {
-              text: 'Chora Coop',
+              text: 'Chora Groups',
               collapsible: true,
-              children: ['/guides/coop/index.md'],
+              children: ['/guides/groups/index.md'],
             },
             {
               text: 'Chora Registry',

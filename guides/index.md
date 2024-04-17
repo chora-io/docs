@@ -10,7 +10,7 @@ If you\'re new to blockchain technology or browser wallets, no problem. Start wi
 
 Chora includes three featured web applications. The following guides are designed to support users in navigating their way through each application and learning about available features:
 
-- [Chora Coop](/guides/coop)
+- [Chora Groups](/guides/groups)
 - [Chora Registry](/guides/registry)
 - [Chora Ledger](/guides/ledger)
 
