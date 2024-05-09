@@ -1,10 +1,22 @@
-import { defaultTheme, defineUserConfig } from 'vuepress'
+import { viteBundler } from '@vuepress/bundler-vite'
+import { defaultTheme } from '@vuepress/theme-default'
+import { defineUserConfig } from 'vuepress'
 
 const { description } = require('../package')
 
 export default defineUserConfig({
-  title: 'chora docs',
+  title: 'chora documentation',
   description: description,
+  bundler: viteBundler({
+    viteOptions: {},
+    vuePluginOptions: {},
+  }),
+  pagePatterns: [
+    './index.md',
+    '!./README.md',
+    './guides',
+    './specs',
+  ],
   theme: defaultTheme({
     colorMode: 'dark',
     contributors: false,

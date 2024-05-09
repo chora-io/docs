@@ -1,10 +1,36 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 300 !important;
+}
+
+.site-name {
+  font-weight: 300 !important;
+}
+
 .description {
-	color: var(--c-brand) !important;
-	font-style: italic;
+  color: var(--c-brand) !important;
+  font-style: italic;
+  font-weight: 300 !important;
+}
+
+.sidebar-heading {
+  font-weight: 300 !important;
 }
 
 @media (min-width: 958px) {
-	main.page {
-		margin-top: 2%;
-	}
+  .theme-default-content div {
+    padding: 2em 0;
+  }
+}
+
+.theme-default-content p,
+.theme-default-content div > h1 > a,
+.theme-default-content div > h2 > a,
+.theme-default-content div > h3 > a,
+.theme-default-content div > h4 > a,
+.theme-default-content div > h5 > a {
+  font-weight: 300 !important;
 }
