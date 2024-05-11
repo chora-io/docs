@@ -32,14 +32,22 @@
 
 ## API Endpoints
 
-### chora
+### api
 
-[https://testnet.chora.io/](https://testnet.chora.io/) is serving endpoints for [chora](https://github.com/chora-io/chora).
-
-### server
-
-[https://server.chora.io/](https://server.chora.io/) is serving endpoints for [server](https://github.com/chora-io/server).
+[https://api.chora.io/](https://api.chora.io/) is serving endpoints for [server](https://github.com/chora-io/server).
 
 ### schema
 
 [https://schema.chora.io/](https://schema.chora.io/) is serving endpoints for [schema](https://github.com/chora-io/schema).
+
+### testnet
+
+[https://testnet.chora.io/](https://testnet.chora.io/) is serving endpoints for [chora](https://github.com/chora-io/chora).
+
+### regen
+
+[https://regen.chora.io/](https://regen.chora.io/) is serving endpoints for [regen-ledger](https://github.com/regen-network/regen-ledger).
+
+### redwood
+
+[https://redwood.chora.io/](https://redwood.chora.io/) is serving endpoints for [regen-ledger](https://github.com/regen-network/regen-ledger).
