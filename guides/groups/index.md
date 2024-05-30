@@ -9,3 +9,7 @@ This guide will walk through the [Chora Groups](https://groups.chora.io) applica
 ## Prerequisites
 
 - [Get Started](../get-started)
+
+## What are groups?
+
+[ coming soon ]

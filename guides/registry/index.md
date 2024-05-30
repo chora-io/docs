@@ -9,3 +9,7 @@ This guide will walk through the [Chora Registry](https://registry.chora.io) app
 ## Prerequisites
 
 - [Get Started](../get-started)
+
+## What is a registry?
+
+[ coming soon ]

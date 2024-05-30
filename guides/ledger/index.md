@@ -9,3 +9,7 @@ This guide will walk through the [Chora Ledger](https://ledger.chora.io) applica
 ## Prerequisites
 
 - [Get Started](../get-started)
+
+## What is a blockchain?
+
+[ coming soon ]
