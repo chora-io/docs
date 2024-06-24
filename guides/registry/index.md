@@ -1,6 +1,6 @@
 # Introduction
 
-[Chora Registry](https://registry.chora.io) is a network governance dashboard.
+[Chora Registry](https://registry.chora.io) is a registry for ecological claims and assets.
 
 ## Overview
 
