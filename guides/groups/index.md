@@ -1,6 +1,6 @@
 # Introduction
 
-[Chora Groups](https://groups.chora.io) is a group governance workspace for ecological projects.
+[Chora Groups](https://groups.chora.io) is a group governance workspace for managing shared resources.
 
 ## Overview
 
