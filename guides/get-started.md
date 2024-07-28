@@ -2,10 +2,12 @@
 
 ## Keplr
 
-You will need to install [Keplr Wallet](https://www.keplr.app/download) as a mobile application and/or a browser extension, depending on how you intend to interact with Chora applications. Keplr is a wallet application that enables users to interact with multiple blockchain networks in the [Cosmos](https://cosmos.network/) ecosystem. Chora applications use Keplr to easily interact with supported networks - i.e. Chora Testnet, Regen, and Regen Redwood.
+You will need to install [Keplr Wallet](https://www.keplr.app/download) as a mobile application and/or a browser extension depending on how you intend to interact with Chora applications (i.e. mobile or desktop).
+
+Keplr is a wallet application that enables users to interact with multiple blockchain networks. All Chora applications use Keplr to connect users to supported networks (i.e. Chora Testnet, Regen Redwood, and Regen), enabling users to then sign and broadcast transactions.
 
 ## Tokens
 
-You will need to have a small balance of tokens available in your account for each network you intend to interact with. These tokens will be required to pay for transactions fees. If you are new to blockchain, we recommend starting out with test networks to familiarize yourself with how this all works.
+You will need tokens for each network you intend to interact with. Tokens cover fees required for each transaction. If you are new to blockchain or signing and broadcasting transactions, we recommend you start with test networks to familiarize yourself with how this all works.
 
-You can use the [Chora Faucet](https://faucet.chora.io/chora-testnet-1) to receive test network tokens from supported test networks. A small amount of tokens can be requested up to three times with the same account on each test network - i.e. Chora Testnet and Regen Redwood. After requesting tokens, you can verify that your account balance was updated with Keplr Wallet. You can also check your balance using the [Ledger](https://ledger.chora.io/chora-testnet-1/account) application.
+You can use the [Chora Faucet](https://faucet.chora.io/chora-testnet-1) application to receive tokens from supported test networks. A small amount of tokens can be requested up to three times with the same account on each test network (i.e. Chora Testnet and Regen Redwood). After requesting tokens, you can verify your account balance was updated by using Keplr Wallet or the [Chora Ledger](https://ledger.chora.io/chora-testnet-1/account) application.

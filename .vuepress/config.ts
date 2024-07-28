@@ -64,7 +64,7 @@ export default defineUserConfig({
             children: [
               {
                 text: 'Software Stack',
-                link: '/guides/stack/index.md',
+                link: '/guides/software/index.md',
               },
             ],
           },
@@ -95,12 +95,24 @@ export default defineUserConfig({
             text: 'Blockchain Modules',
             children: [
               {
+                text: 'Authority Module',
+                link: '/specs/authority/index.md',
+              },
+              {
                 text: 'Content Module',
                 link: '/specs/content/index.md',
               },
               {
-                text: 'Geonode Module',
-                link: '/specs/geonode/index.md',
+                text: 'Ecosystem Module',
+                link: '/specs/ecosystem/index.md',
+              },
+              {
+                text: 'Governance Module',
+                link: '/specs/governance/index.md',
+              },
+              {
+                text: 'Staking Module',
+                link: '/specs/staking/index.md',
               },
               {
                 text: 'Validator Module',
@@ -154,7 +166,7 @@ export default defineUserConfig({
               text: 'Software Stack',
               collapsible: true,
               children: [
-                '/guides/stack/index.md',
+                '/guides/software/index.md',
               ],
             },
           ],
@@ -177,6 +189,18 @@ export default defineUserConfig({
           text: 'Blockchain Modules',
           children: [
             {
+              text: 'Authority Module',
+              collapsible: true,
+              children: [
+                '/specs/authority/index.md',
+                '/specs/authority/01_concepts.md',
+                '/specs/authority/02_msg.md',
+                '/specs/authority/03_query.md',
+                '/specs/authority/04_state.md',
+                '/specs/authority/05_events.md',
+              ],
+            },
+            {
               text: 'Content Module',
               collapsible: true,
               children: [
@@ -189,15 +213,39 @@ export default defineUserConfig({
               ],
             },
             {
-              text: 'Geonode Module',
+              text: 'Ecosystem Module',
               collapsible: true,
               children: [
-                '/specs/geonode/index.md',
-                '/specs/geonode/01_concepts.md',
-                '/specs/geonode/02_msg.md',
-                '/specs/geonode/03_query.md',
-                '/specs/geonode/04_state.md',
-                '/specs/geonode/05_events.md',
+                '/specs/ecosystem/index.md',
+                '/specs/ecosystem/01_concepts.md',
+                '/specs/ecosystem/02_msg.md',
+                '/specs/ecosystem/03_query.md',
+                '/specs/ecosystem/04_state.md',
+                '/specs/ecosystem/05_events.md',
+              ],
+            },
+            {
+              text: 'Governance Module',
+              collapsible: true,
+              children: [
+                '/specs/governance/index.md',
+                '/specs/governance/01_concepts.md',
+                '/specs/governance/02_msg.md',
+                '/specs/governance/03_query.md',
+                '/specs/governance/04_state.md',
+                '/specs/governance/05_events.md',
+              ],
+            },
+            {
+              text: 'Staking Module',
+              collapsible: true,
+              children: [
+                '/specs/staking/index.md',
+                '/specs/staking/01_concepts.md',
+                '/specs/staking/02_msg.md',
+                '/specs/staking/03_query.md',
+                '/specs/staking/04_state.md',
+                '/specs/staking/05_events.md',
               ],
             },
             {

@@ -1,6 +1,6 @@
 # Query Service
 
-The `geonode` module provides a query service for querying the state of the module.
+The `ecosystem` module provides a query service for querying the state of the module.
 
 ## Proto Definitions
 

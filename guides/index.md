@@ -18,4 +18,4 @@ Chora includes three featured web applications. The following user guides provid
 
 Chora is a software stack in its early stages of development. As the tooling stabilizes, more developer guides will be made available. In the meantime, check out the following overview:
 
-- [Software Stack](/guides/stack/index.md)
+- [Software Stack](/guides/software/index.md)

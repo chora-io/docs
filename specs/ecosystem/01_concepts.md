@@ -4,6 +4,6 @@
 
 The authority is the account that has permissions to update module parameters.
 
-## Voucher
+## Subject
 
-A voucher is a voucher that can be issued and updated by the issuer.
+A subject is the on-chain representation of an ecological subject.

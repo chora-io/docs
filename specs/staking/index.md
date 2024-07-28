@@ -1,6 +1,6 @@
 # Overview
 
-The `geonode` module enables a user to create and update geospatial information.
+The `staking` module provides a dynamic network staking framework.
 
 ## Contents
 
