@@ -1,6 +1,6 @@
 # Overview
 
-The `staking` module provides a dynamic network staking framework.
+The `geonode` module enables the on-chain representation of ecological subjects.
 
 ## Contents
 

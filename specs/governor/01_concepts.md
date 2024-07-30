@@ -10,4 +10,4 @@ A governor is elected through network governance. A governor acts as a represent
 
 ## Delegator
 
-A delegator is any account that delegates any amount of voting power to a governor. A delegator always has the option to vote independently, cancelling out their delegated votes.
+A delegator is any account that delegates voting power to a governor. To delegate voting power, a delegator must lock tokens up with a governor. A delegator may earn rewards depending on module parameters and governor commission. A delegator always has the option to vote independently, cancelling out their delegated votes.

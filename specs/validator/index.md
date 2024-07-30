@@ -1,6 +1,6 @@
 # Overview
 
-The `validator` module enables proof-of-authority consensus.
+The `validator` module enables a governance framework for validators and delegators.
 
 ## Contents
 

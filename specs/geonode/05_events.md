@@ -1,6 +1,6 @@
 # Events
 
-The `ecosystem` module emits events upon the successful execution of messages.
+The `geonode` module emits events upon the successful execution of messages.
 
 ## Proto Definitions
 

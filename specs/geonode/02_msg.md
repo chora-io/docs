@@ -1,6 +1,6 @@
 # Msg Service
 
-The `ecosystem` module provides a message service for interacting with the state of the module.
+The `geonode` module provides a message service for interacting with the state of the module.
 
 ## Proto Definitions
 

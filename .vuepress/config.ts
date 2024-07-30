@@ -103,16 +103,12 @@ export default defineUserConfig({
                 link: '/specs/content/index.md',
               },
               {
-                text: 'Ecosystem Module',
-                link: '/specs/ecosystem/index.md',
+                text: 'Geonode Module',
+                link: '/specs/geonode/index.md',
               },
               {
                 text: 'Governor Module',
                 link: '/specs/governor/index.md',
-              },
-              {
-                text: 'Staking Module',
-                link: '/specs/staking/index.md',
               },
               {
                 text: 'Validator Module',
@@ -213,15 +209,15 @@ export default defineUserConfig({
               ],
             },
             {
-              text: 'Ecosystem Module',
+              text: 'Geonode Module',
               collapsible: true,
               children: [
-                '/specs/ecosystem/index.md',
-                '/specs/ecosystem/01_concepts.md',
-                '/specs/ecosystem/02_msg.md',
-                '/specs/ecosystem/03_query.md',
-                '/specs/ecosystem/04_state.md',
-                '/specs/ecosystem/05_events.md',
+                '/specs/geonode/index.md',
+                '/specs/geonode/01_concepts.md',
+                '/specs/geonode/02_msg.md',
+                '/specs/geonode/03_query.md',
+                '/specs/geonode/04_state.md',
+                '/specs/geonode/05_events.md',
               ],
             },
             {
@@ -234,18 +230,6 @@ export default defineUserConfig({
                 '/specs/governor/03_query.md',
                 '/specs/governor/04_state.md',
                 '/specs/governor/05_events.md',
-              ],
-            },
-            {
-              text: 'Staking Module',
-              collapsible: true,
-              children: [
-                '/specs/staking/index.md',
-                '/specs/staking/01_concepts.md',
-                '/specs/staking/02_msg.md',
-                '/specs/staking/03_query.md',
-                '/specs/staking/04_state.md',
-                '/specs/staking/05_events.md',
               ],
             },
             {

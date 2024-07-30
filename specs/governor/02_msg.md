@@ -30,4 +30,4 @@ The `governor` module provides a message service for interacting with the state 
 
 `MsgSubmitVote` - Any account with voting power can vote on a proposal. Voting power is determined by the module parameters (e.g. voting power can be based on amount staked, in which any account with tokens staked on the network has voting power based on the amount staked, or voting can be restricted to governors, validators, an allowlist, etc).
 
-`MsgUpdateVote` -
+`MsgUpdateVote` - The voter account can update their vote before the voting period has ended.
