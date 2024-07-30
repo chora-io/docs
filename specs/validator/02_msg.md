@@ -2,18 +2,7 @@
 
 The `validator` module provides a message service for interacting with the state of the module.
 
-## Proto Definitions
-
-The messages are defined in proto files available to view on [Buf Schema Registry](https://buf.build/chora/validator).
-
-<!-- listed alphabetically -->
-
-- [AddValidator](https://buf.build/chora/validator/docs/main:chora.validator.v1#chora.validator.v1.Msg.AddValidator)
-- [RemoveValidator](https://buf.build/chora/validator/docs/main:chora.validator.v1#chora.validator.v1.Msg.RemoveValidator)
-- [UpdatePolicy](https://buf.build/chora/validator/docs/main:chora.validator.v1#chora.validator.v1.Msg.UpdatePolicy)
-- [UpdateValidator](https://buf.build/chora/validator/docs/main:chora.validator.v1#chora.validator.v1.Msg.UpdateValidator)
-
-...
+## Draft Definitions
 
 `MsgUpdateParameters` - Only the configured authority account can update module parameters.
 
@@ -30,3 +19,14 @@ The messages are defined in proto files available to view on [Buf Schema Registr
 `MsgSubmitVote` - Any account with voting power can vote on a proposal. Voting power is determined by the module parameters (e.g. voting power can be based on amount staked, in which any account with tokens staked on the network has voting power based on the amount staked, or voting can be restricted to governors, validators, an allowlist, etc).
 
 `MsgUpdateVote` - The voter account can update their vote before the voting period has ended.
+
+## Proto Definitions
+
+The messages are defined in proto files available to view on [Buf Schema Registry](https://buf.build/chora/validator).
+
+<!-- listed alphabetically -->
+
+- [AddValidator](https://buf.build/chora/validator/docs/main:chora.validator.v1#chora.validator.v1.Msg.AddValidator)
+- [RemoveValidator](https://buf.build/chora/validator/docs/main:chora.validator.v1#chora.validator.v1.Msg.RemoveValidator)
+- [UpdatePolicy](https://buf.build/chora/validator/docs/main:chora.validator.v1#chora.validator.v1.Msg.UpdatePolicy)
+- [UpdateValidator](https://buf.build/chora/validator/docs/main:chora.validator.v1#chora.validator.v1.Msg.UpdateValidator)

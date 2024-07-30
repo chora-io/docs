@@ -4,12 +4,12 @@ The `authority` module uses the `orm` module as an abstraction layer over the `K
 
 For more information about the `orm` module, see [Cosmos SDK ADR 055: ORM](https://docs.cosmos.network/main/architecture/adr-055-orm).
 
+## Draft Definitions
+
+`Authority` - A singleton table that stores the address of the authority account.
+
 ## Proto Definitions
 
 ~~The state is defined in the proto files available to view on [Buf Schema Registry](https://buf.build/chora/authority).~~
 
 <!-- listed alphabetically -->
-
-...
-
-`Authority` - A singleton table that stores the address of the authority account.

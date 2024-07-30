@@ -103,12 +103,12 @@ export default defineUserConfig({
                 link: '/specs/content/index.md',
               },
               {
-                text: 'Geonode Module',
-                link: '/specs/geonode/index.md',
-              },
-              {
                 text: 'Governor Module',
                 link: '/specs/governor/index.md',
+              },
+              {
+                text: 'Subject Module',
+                link: '/specs/subject/index.md',
               },
               {
                 text: 'Validator Module',
@@ -209,18 +209,6 @@ export default defineUserConfig({
               ],
             },
             {
-              text: 'Geonode Module',
-              collapsible: true,
-              children: [
-                '/specs/geonode/index.md',
-                '/specs/geonode/01_concepts.md',
-                '/specs/geonode/02_msg.md',
-                '/specs/geonode/03_query.md',
-                '/specs/geonode/04_state.md',
-                '/specs/geonode/05_events.md',
-              ],
-            },
-            {
               text: 'Governor Module',
               collapsible: true,
               children: [
@@ -230,6 +218,18 @@ export default defineUserConfig({
                 '/specs/governor/03_query.md',
                 '/specs/governor/04_state.md',
                 '/specs/governor/05_events.md',
+              ],
+            },
+            {
+              text: 'Subject Module',
+              collapsible: true,
+              children: [
+                '/specs/subject/index.md',
+                '/specs/subject/01_concepts.md',
+                '/specs/subject/02_msg.md',
+                '/specs/subject/03_query.md',
+                '/specs/subject/04_state.md',
+                '/specs/subject/05_events.md',
               ],
             },
             {

@@ -14,7 +14,7 @@ Specifications for Chora blockchain modules.
 
 - [Authority Module](./authority/index.md)
 - [Content Module](./content/index.md)
-- [Geonode Module](./geonode/index.md)
 - [Governor Module](./governor/index.md)
+- [Subject Module](./subject/index.md)
 - [Validator Module](./validator/index.md)
 - [Voucher Module](./voucher/index.md)

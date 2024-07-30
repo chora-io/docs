@@ -7,8 +7,8 @@ SPECS_DIR=./specs
 CHORA_MODULES_VERSION=015ffa80b358bd3e140f0ea79749b1fd1d7609c5
 
 CHORA_CONTENT_URL=https://raw.githubusercontent.com/chora-io/mods/${CHORA_MODULES_VERSION}/content/spec
-CHORA_GEONODE_URL=https://raw.githubusercontent.com/chora-io/mods/${CHORA_MODULES_VERSION}/geonode/spec
 CHORA_GOVERNOR_URL=https://raw.githubusercontent.com/chora-io/mods/${CHORA_MODULES_VERSION}/governor/spec
+CHORA_SUBJECT_URL=https://raw.githubusercontent.com/chora-io/mods/${CHORA_MODULES_VERSION}/subject/spec
 CHORA_VALIDATOR_URL=https://raw.githubusercontent.com/chora-io/mods/${CHORA_MODULES_VERSION}/validator/spec
 CHORA_VOUCHER_URL=https://raw.githubusercontent.com/chora-io/mods/${CHORA_MODULES_VERSION}/voucher/spec
 
@@ -30,7 +30,7 @@ gen_module_docs() {
 }
 
 gen_module_docs "content" $CHORA_CONTENT_URL
-gen_module_docs "geonode" $CHORA_GEONODE_URL
 gen_module_docs "governor" $CHORA_GOVERNOR_URL
+gen_module_docs "subject" $CHORA_SUBJECT_URL
 gen_module_docs "validator" $CHORA_VALIDATOR_URL
 gen_module_docs "voucher" $CHORA_VOUCHER_URL

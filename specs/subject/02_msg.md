@@ -1,6 +1,14 @@
 # Msg Service
 
-The `geonode` module provides a message service for interacting with the state of the module.
+The `subject` module provides a message service for interacting with the state of the module.
+
+## Draft Definitions
+
+`MsgCreate` - create subject
+
+`MsgRemove` - remove subject
+
+`MsgUpdate` - update subject 
 
 ## Proto Definitions
 

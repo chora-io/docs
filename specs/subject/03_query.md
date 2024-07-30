@@ -1,6 +1,12 @@
 # Query Service
 
-The `geonode` module provides a query service for querying the state of the module.
+The `subject` module provides a query service for querying the state of the module.
+
+## Draft Definitions
+
+`QuerySubject` - query subject by subject id
+
+`QuerySubjects` - query all subjects with pagination
 
 ## Proto Definitions
 

@@ -1,6 +1,6 @@
 # Concepts
 
-## Authority Account
+## Authority
 
 The authority of the network is an account that has permission to update module parameters. Only the current authority account has permission to update the authority account.
 

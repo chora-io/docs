@@ -1,6 +1,6 @@
 # Overview
 
-The `geonode` module enables the on-chain representation of ecological subjects.
+The `subject` module enables the on-chain representation of ecological subjects.
 
 ## Contents
 
