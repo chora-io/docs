@@ -12,7 +12,7 @@ Specification for Chora blockchain application.
 
 Specifications for Chora blockchain modules.
 
-- [Authority Module](./authority/index.md)
+- [Admin Module](./admin/index.md)
 - [Content Module](./content/index.md)
 - [Governor Module](./governor/index.md)
 - [Subject Module](./subject/index.md)

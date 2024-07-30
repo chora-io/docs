@@ -95,8 +95,8 @@ export default defineUserConfig({
             text: 'Blockchain Modules',
             children: [
               {
-                text: 'Authority Module',
-                link: '/specs/authority/index.md',
+                text: 'Admin Module',
+                link: '/specs/admin/index.md',
               },
               {
                 text: 'Content Module',
@@ -107,8 +107,16 @@ export default defineUserConfig({
                 link: '/specs/governor/index.md',
               },
               {
+                text: 'Proposal Module',
+                link: '/specs/proposal/index.md',
+              },
+              {
                 text: 'Subject Module',
                 link: '/specs/subject/index.md',
+              },
+              {
+                text: 'Token Module',
+                link: '/specs/token/index.md',
               },
               {
                 text: 'Validator Module',
@@ -185,15 +193,15 @@ export default defineUserConfig({
           text: 'Blockchain Modules',
           children: [
             {
-              text: 'Authority Module',
+              text: 'Admin Module',
               collapsible: true,
               children: [
-                '/specs/authority/index.md',
-                '/specs/authority/01_concepts.md',
-                '/specs/authority/02_msg.md',
-                '/specs/authority/03_query.md',
-                '/specs/authority/04_state.md',
-                '/specs/authority/05_events.md',
+                '/specs/admin/index.md',
+                '/specs/admin/01_concepts.md',
+                '/specs/admin/02_msg.md',
+                '/specs/admin/03_query.md',
+                '/specs/admin/04_state.md',
+                '/specs/admin/05_events.md',
               ],
             },
             {
@@ -221,6 +229,18 @@ export default defineUserConfig({
               ],
             },
             {
+              text: 'Proposal Module',
+              collapsible: true,
+              children: [
+                '/specs/proposal/index.md',
+                '/specs/proposal/01_concepts.md',
+                '/specs/proposal/02_msg.md',
+                '/specs/proposal/03_query.md',
+                '/specs/proposal/04_state.md',
+                '/specs/proposal/05_events.md',
+              ],
+            },
+            {
               text: 'Subject Module',
               collapsible: true,
               children: [
@@ -230,6 +250,18 @@ export default defineUserConfig({
                 '/specs/subject/03_query.md',
                 '/specs/subject/04_state.md',
                 '/specs/subject/05_events.md',
+              ],
+            },
+            {
+              text: 'Token Module',
+              collapsible: true,
+              children: [
+                '/specs/token/index.md',
+                '/specs/token/01_concepts.md',
+                '/specs/token/02_msg.md',
+                '/specs/token/03_query.md',
+                '/specs/token/04_state.md',
+                '/specs/token/05_events.md',
               ],
             },
             {
