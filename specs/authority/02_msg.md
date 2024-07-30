@@ -10,4 +10,4 @@ The `authority` module provides a message service for interacting with the state
 
 ...
 
-`MsgUpdateAuthority` - Only the authority account can update the authority account. The authority account can be any account, i.e. a module account, a group account, a user account, etc.
+`MsgUpdate` - Only the authority account can update the authority account. The authority account can be any account, i.e. a module account, a group account, a user account, etc.

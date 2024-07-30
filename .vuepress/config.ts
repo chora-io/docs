@@ -107,8 +107,8 @@ export default defineUserConfig({
                 link: '/specs/ecosystem/index.md',
               },
               {
-                text: 'Governance Module',
-                link: '/specs/governance/index.md',
+                text: 'Governor Module',
+                link: '/specs/governor/index.md',
               },
               {
                 text: 'Staking Module',
@@ -225,15 +225,15 @@ export default defineUserConfig({
               ],
             },
             {
-              text: 'Governance Module',
+              text: 'Governor Module',
               collapsible: true,
               children: [
-                '/specs/governance/index.md',
-                '/specs/governance/01_concepts.md',
-                '/specs/governance/02_msg.md',
-                '/specs/governance/03_query.md',
-                '/specs/governance/04_state.md',
-                '/specs/governance/05_events.md',
+                '/specs/governor/index.md',
+                '/specs/governor/01_concepts.md',
+                '/specs/governor/02_msg.md',
+                '/specs/governor/03_query.md',
+                '/specs/governor/04_state.md',
+                '/specs/governor/05_events.md',
               ],
             },
             {

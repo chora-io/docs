@@ -10,4 +10,4 @@ The `authority` module emits events upon the successful execution of messages.
 
 ...
 
-`EventUpdateAuthority` - An event emitted when the authority account has been updated.
+`EventUpdate` - An event emitted when the authority account has been updated.

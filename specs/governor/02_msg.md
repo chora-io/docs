@@ -1,10 +1,10 @@
 # Msg Service
 
-The `governance` module provides a message service for interacting with the state of the module.
+The `governor` module provides a message service for interacting with the state of the module.
 
 ## Proto Definitions
 
-~~The messages are defined in proto files available to view on [Buf Schema Registry](https://buf.build/chora/governance).~~
+~~The messages are defined in proto files available to view on [Buf Schema Registry](https://buf.build/chora/governor).~~
 
 <!-- listed alphabetically -->
 
@@ -16,13 +16,13 @@ The `governance` module provides a message service for interacting with the stat
 
 `MsgRetireGovernor` - A governor can retire from their position at any time, forfeiting their voting power and releasing their delegations. If there are any unclaimed rewards remaining in the governor account, the rewards will be automatically transferred from the governor account to the owner account.
 
-`MsgRemoveGovernor` - Any governor account can be removed through network governance, enabling the network to remove a governor by force if necessary. Any unclaimed rewards can be sent to the owner account, sent to the community spending pool, or burned upon removal. 
+`MsgRemoveGovernor` - Any governor account can be removed through network governor, enabling the network to remove a governor by force if necessary. Any unclaimed rewards can be sent to the owner account, sent to the community spending pool, or burned upon removal. 
 
 ...
 
-`MsgSubmitProposal` - Any account can submit a governance proposal. A governance proposal will either be executed by the governance module account (given the governance module account is the authority of the network) or pending approval and execution by the authority of the network (if the governance module account is not the authority of the network).
+`MsgSubmitProposal` - Any account can submit a governor proposal. A governor proposal will either be executed by the governor module account (given the governor module account is the authority of the network) or pending approval and execution by the authority of the network (if the governor module account is not the authority of the network).
 
-`MsgSubmitProposalDeposit` - Any account can submit a governance proposal deposit. The deposit will be returned once the voting period has ended (unless the result of the proposal was "no with veto").
+`MsgSubmitProposalDeposit` - Any account can submit a governor proposal deposit. The deposit will be returned once the voting period has ended (unless the result of the proposal was "no with veto").
 
 `MsgWithdrawProposal` - Only the account that submitted the proposal (the "proposer") or the authority account can withdraw a proposal.
 

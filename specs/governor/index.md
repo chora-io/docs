@@ -1,6 +1,6 @@
 # Overview
 
-The `governance` module enables a dynamic network governance framework.
+The `governor` module enables a dynamic network governance framework.
 
 ## Contents
 
