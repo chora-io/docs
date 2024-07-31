@@ -1,6 +1,6 @@
 # Overview
 
-The `validator` module enables a governance framework for validators and delegators.
+The `validator` module enables the registration and management of network validators.
 
 ## Contents
 
