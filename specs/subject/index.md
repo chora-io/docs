@@ -1,6 +1,6 @@
 # Overview
 
-The `subject` module enables the on-chain representation of ecological subjects.
+The `subject` module provides a framework for ecological subjects.
 
 ## Contents
 

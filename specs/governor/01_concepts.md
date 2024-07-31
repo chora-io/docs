@@ -2,11 +2,11 @@
 
 ## Admin
 
-The admin is the account that has permission to update module parameters. Module parameters define the settings of the module. A simple blockchain application configuration would use the same account as the admin for all of its modules, in which case the admin is "the network admin" (see [admin](../admin/)).
+The admin is the account that has permission to update module parameters. Module parameters define the settings of the module. The same account can be the admin for all modules within an application in which case there would be a single "network admin" (see the [admin](../admin/) module for more information).
 
 ## Governor
 
-Any account can register as a governor. A governor acts as a representative of the network, receiving delegations from other accounts and participating in network governance as a governor. A governor may receive rewards depending their status and the set module parameters.
+Any account can register as a governor. A governor acts as a representative of the network, receiving delegations from other accounts and participating in network governance as a governor. A governor may receive rewards depending on their status and the set module parameters.
 
 A governor can be "active" or "inactive" depending on the criteria defined by the module parameters. An "active" governor is a governor that has voting power and may or may not receive rewards whereas as an "inactive" governor is a governor that does not have voting power and does not receive rewards. 
 

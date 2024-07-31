@@ -1,6 +1,6 @@
 # Overview
 
-The `proposal` module enables a proposal governance framework that is utilized by other modules.
+The `proposal` module provides a framework for governance proposals.
 
 ## Contents
 

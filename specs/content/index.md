@@ -1,6 +1,6 @@
 # Overview
 
-The `content` module enables an account to create, update, and delete content.
+The `content` module enables the creation and management of content.
 
 ## Contents
 

@@ -1,6 +1,6 @@
 # Overview
 
-The `validator` module enables the registration and management of network validators.
+The `validator` module enables the registration and management of validators.
 
 ## Contents
 

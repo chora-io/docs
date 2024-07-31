@@ -1,6 +1,6 @@
 # Overview
 
-The `token` module enables the creating, minting, and sending of tokens.
+The `token` module enables the creation, issuance, and management of tokens.
 
 ## Contents
 

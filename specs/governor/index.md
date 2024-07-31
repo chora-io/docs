@@ -1,6 +1,6 @@
 # Overview
 
-The `governor` module enables a governance framework for governors and delegators.
+The `governor` module provides a framework for governors and delegators.
 
 ## Contents
 
