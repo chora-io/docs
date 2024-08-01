@@ -4,11 +4,11 @@ The `subject` module provides a message service for interacting with the state o
 
 ## Draft Definitions
 
-`MsgCreate` - create subject
+`MsgCreateSubject` - create subject
 
-`MsgRemove` - remove subject
+`MsgRemoveSubject` - remove subject
 
-`MsgUpdate` - update subject 
+`MsgUpdateSubject` - update subject 
 
 ## Proto Definitions
 

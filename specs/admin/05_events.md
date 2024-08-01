@@ -4,7 +4,7 @@ The `admin` module emits events upon the successful execution of messages.
 
 ## Draft Definitions
 
-`EventUpdate` - An event emitted when the admin account has been updated.
+`EventUpdateAdmin` - An event emitted when the admin account has been updated.
 
 ## Proto Definitions
 

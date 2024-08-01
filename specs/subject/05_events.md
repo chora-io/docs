@@ -4,11 +4,11 @@ The `subject` module emits events upon the successful execution of messages.
 
 ## Draft Definitions
 
-`EventCreate` - an event emitted when a subject is created
+`EventCreateSubject` - an event emitted when a subject is created
 
-`EventRemove` - an event emitted when a subject is removed
+`EventRemoveSubject` - an event emitted when a subject is removed
 
-`EventUpdate` - an event emitted when a subject is updated
+`EventUpdateSubject` - an event emitted when a subject is updated
 
 ## Proto Definitions
 

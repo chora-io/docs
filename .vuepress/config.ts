@@ -111,10 +111,6 @@ export default defineUserConfig({
                 link: '/specs/subject/index.md',
               },
               {
-                text: 'Token Module',
-                link: '/specs/token/index.md',
-              },
-              {
                 text: 'Validator Module',
                 link: '/specs/validator/index.md',
               },
@@ -247,18 +243,6 @@ export default defineUserConfig({
                 '/specs/subject/03_query.md',
                 '/specs/subject/04_state.md',
                 '/specs/subject/05_events.md',
-              ],
-            },
-            {
-              text: 'Token Module',
-              collapsible: true,
-              children: [
-                '/specs/token/index.md',
-                '/specs/token/01_concepts.md',
-                '/specs/token/02_msg.md',
-                '/specs/token/03_query.md',
-                '/specs/token/04_state.md',
-                '/specs/token/05_events.md',
               ],
             },
             {

@@ -6,7 +6,9 @@ The admin is the account that has permission to update module parameters. Module
 
 ## Validator
 
-A validator is responsible for producing and verifying blocks by running the blockchain application. A validator can be "active" or "inactive" depending on the criteria defined by the module parameters and the status of the node running the application. An "active" validator is a validator that has an active node and the status of the validator meets the criteria defined by the module parameters.
+A validator is responsible for producing and verifying blocks by running the blockchain application.
+
+A validator can be "active" or "inactive" depending on their status and the set module parameters. An "active" validator is a validator that has an active node and the status of the validator meets the criteria defined by the module parameters whereas an "inactive" validators is a validator that does not have an active node and/or does not meet the criteria defined by the module parameters.
 
 ## Validator Operator
 
