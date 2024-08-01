@@ -14,8 +14,10 @@ Specifications for blockchain modules.
 
 - [Admin Module](./admin/index.md)
 - [Governor Module](./governor/index.md)
+- [Proposal Module](./proposal/index.md)
 - [Subject Module](./subject/index.md)
 - [Validator Module](./validator/index.md)
+- [Vesting Module](./vesting/index.md)
 - [Voucher Module](./voucher/index.md)
 
 ## Module Development
