@@ -99,10 +99,6 @@ export default defineUserConfig({
                 link: '/specs/admin/index.md',
               },
               {
-                text: 'Content Module',
-                link: '/specs/content/index.md',
-              },
-              {
                 text: 'Governor Module',
                 link: '/specs/governor/index.md',
               },
@@ -123,8 +119,21 @@ export default defineUserConfig({
                 link: '/specs/validator/index.md',
               },
               {
+                text: 'Vesting Module',
+                link: '/specs/vesting/index.md',
+              },
+              {
                 text: 'Voucher Module',
                 link: '/specs/voucher/index.md',
+              },
+            ],
+          },
+          {
+            text: 'Module Development',
+            children: [
+              {
+                text: 'Example Module',
+                link: '/specs/example/index.md',
               },
             ],
           },
@@ -205,18 +214,6 @@ export default defineUserConfig({
               ],
             },
             {
-              text: 'Content Module',
-              collapsible: true,
-              children: [
-                '/specs/content/index.md',
-                '/specs/content/01_concepts.md',
-                '/specs/content/02_msg.md',
-                '/specs/content/03_query.md',
-                '/specs/content/04_state.md',
-                '/specs/content/05_events.md',
-              ],
-            },
-            {
               text: 'Governor Module',
               collapsible: true,
               children: [
@@ -277,6 +274,18 @@ export default defineUserConfig({
               ],
             },
             {
+              text: 'Vesting Module',
+              collapsible: true,
+              children: [
+                '/specs/vesting/index.md',
+                '/specs/vesting/01_concepts.md',
+                '/specs/vesting/02_msg.md',
+                '/specs/vesting/03_query.md',
+                '/specs/vesting/04_state.md',
+                '/specs/vesting/05_events.md',
+              ],
+            },
+            {
               text: 'Voucher Module',
               collapsible: true,
               children: [
@@ -286,6 +295,23 @@ export default defineUserConfig({
                 '/specs/voucher/03_query.md',
                 '/specs/voucher/04_state.md',
                 '/specs/voucher/05_events.md',
+              ],
+            },
+          ],
+        },
+        {
+          text: 'Module Development',
+          children: [
+            {
+              text: 'Example Module',
+              collapsible: true,
+              children: [
+                '/specs/example/index.md',
+                '/specs/example/01_concepts.md',
+                '/specs/example/02_msg.md',
+                '/specs/example/03_query.md',
+                '/specs/example/04_state.md',
+                '/specs/example/05_events.md',
               ],
             },
           ],

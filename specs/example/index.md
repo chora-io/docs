@@ -1,6 +1,6 @@
 # Overview
 
-The `content` module enables the creation and management of content.
+The `example` module is an example for module development and testing purposes. 
 
 ## Contents
 

@@ -4,7 +4,7 @@ The `admin` module provides a message service for interacting with the state of 
 
 ## Draft Definitions
 
-`MsgUpdate` - Only the admin account can update the admin account. The admin account can be any account, i.e. a module account, a group account, a user account, etc.
+`MsgUpdate` - Updates the admin account. Only the admin can update the admin. The admin can be any account, i.e. a module account, a group account, a multi-sig account, or an individual user account.
 
 ## Proto Definitions
 

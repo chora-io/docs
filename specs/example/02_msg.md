@@ -1,6 +1,6 @@
 # Msg Service
 
-The `content` module provides a message service for interacting with the state of the module.
+The `example` module provides a message service for interacting with the state of the module.
 
 ## Proto Definitions
 

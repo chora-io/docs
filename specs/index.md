@@ -4,17 +4,22 @@ Technical specifications for Chora software.
 
 ## Blockchain App
 
-Specification for Chora blockchain application.
+Specification for blockchain applications.
 
 - [Chora Application](./chora/index.md)
 
 ## Blockchain Modules
 
-Specifications for Chora blockchain modules.
+Specifications for blockchain modules.
 
 - [Admin Module](./admin/index.md)
-- [Content Module](./content/index.md)
 - [Governor Module](./governor/index.md)
 - [Subject Module](./subject/index.md)
 - [Validator Module](./validator/index.md)
 - [Voucher Module](./voucher/index.md)
+
+## Module Development
+
+Specifications for example blockchain modules.
+
+- [Example Module](./example/index.md)
