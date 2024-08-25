@@ -1,6 +1,6 @@
 # Overview
 
-The `subject` module provides a framework for ecological subjects.
+The `example` module is an example module used as a specification for module development. The example module is not intended for use in a production environment.
 
 ## Contents
 

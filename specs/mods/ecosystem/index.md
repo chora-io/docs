@@ -1,6 +1,6 @@
 # Overview
 
-The `example` module is an example for module development and testing purposes. 
+The `ecosystem` module provides a monitoring, reporting, and verification framework for ecosystems managed and operated by ecosystem stewards and oracle services.
 
 ## Contents
 

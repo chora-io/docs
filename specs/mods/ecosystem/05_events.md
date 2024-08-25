@@ -1,14 +1,14 @@
 # Events
 
-The `subject` module emits events upon the successful execution of messages.
+The `ecosystem` module emits events upon the successful execution of messages.
 
 ## Draft Definitions
 
-`EventCreateSubject` - an event emitted when a subject is created
+`EventCreateEcosystem` - an event emitted when a ecosystem is created
 
-`EventRemoveSubject` - an event emitted when a subject is removed
+`EventRemoveEcosystem` - an event emitted when a ecosystem is removed
 
-`EventUpdateSubject` - an event emitted when a subject is updated
+`EventUpdateEcosystem` - an event emitted when a ecosystem is updated
 
 ## Proto Definitions
 

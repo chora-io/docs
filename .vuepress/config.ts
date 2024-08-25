@@ -2,10 +2,10 @@ import { viteBundler } from '@vuepress/bundler-vite'
 import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress'
 
-const { description } = require('../package')
+const { name, description } = require('../package')
 
 export default defineUserConfig({
-  title: 'chora documentation',
+  title: name,
   description: description,
   bundler: viteBundler({
     viteOptions: {},
@@ -96,40 +96,49 @@ export default defineUserConfig({
             children: [
               {
                 text: 'Admin Module',
-                link: '/specs/admin/index.md',
+                link: '/specs/mods/admin/index.md',
+              },
+              {
+                text: 'Ecosystem Module',
+                link: '/specs/mods/ecosystem/index.md',
               },
               {
                 text: 'Governor Module',
-                link: '/specs/governor/index.md',
+                link: '/specs/mods/governor/index.md',
               },
               {
                 text: 'Proposal Module',
-                link: '/specs/proposal/index.md',
-              },
-              {
-                text: 'Subject Module',
-                link: '/specs/subject/index.md',
+                link: '/specs/mods/proposal/index.md',
               },
               {
                 text: 'Validator Module',
-                link: '/specs/validator/index.md',
-              },
-              {
-                text: 'Vesting Module',
-                link: '/specs/vesting/index.md',
+                link: '/specs/mods/validator/index.md',
               },
               {
                 text: 'Voucher Module',
-                link: '/specs/voucher/index.md',
+                link: '/specs/mods/voucher/index.md',
               },
             ],
           },
           {
-            text: 'Module Development',
+            text: 'Examples Apps',
+            children: [
+              {
+                text: 'Bion PoA Example',
+                link: '/specs/bion-poa/index.md',
+              },
+              {
+                text: 'Bion PoS Example',
+                link: '/specs/bion-pos/index.md',
+              },
+            ],
+          },
+          {
+            text: 'Example Modules',
             children: [
               {
                 text: 'Example Module',
-                link: '/specs/example/index.md',
+                link: '/specs/mods/example/index.md',
               },
             ],
           },
@@ -201,101 +210,96 @@ export default defineUserConfig({
               text: 'Admin Module',
               collapsible: true,
               children: [
-                '/specs/admin/index.md',
-                '/specs/admin/01_concepts.md',
-                '/specs/admin/02_msg.md',
-                '/specs/admin/03_query.md',
-                '/specs/admin/04_state.md',
-                '/specs/admin/05_events.md',
+                '/specs/mods/admin/index.md',
+                '/specs/mods/admin/01_concepts.md',
+                '/specs/mods/admin/02_msg.md',
+                '/specs/mods/admin/03_query.md',
+                '/specs/mods/admin/04_state.md',
+                '/specs/mods/admin/05_events.md',
+              ],
+            },
+            {
+              text: 'Ecosystem Module',
+              collapsible: true,
+              children: [
+                '/specs/mods/ecosystem/index.md',
+                '/specs/mods/ecosystem/01_concepts.md',
+                '/specs/mods/ecosystem/02_msg.md',
+                '/specs/mods/ecosystem/03_query.md',
+                '/specs/mods/ecosystem/04_state.md',
+                '/specs/mods/ecosystem/05_events.md',
               ],
             },
             {
               text: 'Governor Module',
               collapsible: true,
               children: [
-                '/specs/governor/index.md',
-                '/specs/governor/01_concepts.md',
-                '/specs/governor/02_msg.md',
-                '/specs/governor/03_query.md',
-                '/specs/governor/04_state.md',
-                '/specs/governor/05_events.md',
+                '/specs/mods/governor/index.md',
+                '/specs/mods/governor/01_concepts.md',
+                '/specs/mods/governor/02_msg.md',
+                '/specs/mods/governor/03_query.md',
+                '/specs/mods/governor/04_state.md',
+                '/specs/mods/governor/05_events.md',
               ],
             },
             {
               text: 'Proposal Module',
               collapsible: true,
               children: [
-                '/specs/proposal/index.md',
-                '/specs/proposal/01_concepts.md',
-                '/specs/proposal/02_msg.md',
-                '/specs/proposal/03_query.md',
-                '/specs/proposal/04_state.md',
-                '/specs/proposal/05_events.md',
-              ],
-            },
-            {
-              text: 'Subject Module',
-              collapsible: true,
-              children: [
-                '/specs/subject/index.md',
-                '/specs/subject/01_concepts.md',
-                '/specs/subject/02_msg.md',
-                '/specs/subject/03_query.md',
-                '/specs/subject/04_state.md',
-                '/specs/subject/05_events.md',
+                '/specs/mods/proposal/index.md',
+                '/specs/mods/proposal/01_concepts.md',
+                '/specs/mods/proposal/02_msg.md',
+                '/specs/mods/proposal/03_query.md',
+                '/specs/mods/proposal/04_state.md',
+                '/specs/mods/proposal/05_events.md',
               ],
             },
             {
               text: 'Validator Module',
               collapsible: true,
               children: [
-                '/specs/validator/index.md',
-                '/specs/validator/01_concepts.md',
-                '/specs/validator/02_msg.md',
-                '/specs/validator/03_query.md',
-                '/specs/validator/04_state.md',
-                '/specs/validator/05_events.md',
-              ],
-            },
-            {
-              text: 'Vesting Module',
-              collapsible: true,
-              children: [
-                '/specs/vesting/index.md',
-                '/specs/vesting/01_concepts.md',
-                '/specs/vesting/02_msg.md',
-                '/specs/vesting/03_query.md',
-                '/specs/vesting/04_state.md',
-                '/specs/vesting/05_events.md',
+                '/specs/mods/validator/index.md',
+                '/specs/mods/validator/01_concepts.md',
+                '/specs/mods/validator/02_msg.md',
+                '/specs/mods/validator/03_query.md',
+                '/specs/mods/validator/04_state.md',
+                '/specs/mods/validator/05_events.md',
               ],
             },
             {
               text: 'Voucher Module',
               collapsible: true,
               children: [
-                '/specs/voucher/index.md',
-                '/specs/voucher/01_concepts.md',
-                '/specs/voucher/02_msg.md',
-                '/specs/voucher/03_query.md',
-                '/specs/voucher/04_state.md',
-                '/specs/voucher/05_events.md',
+                '/specs/mods/voucher/index.md',
+                '/specs/mods/voucher/01_concepts.md',
+                '/specs/mods/voucher/02_msg.md',
+                '/specs/mods/voucher/03_query.md',
+                '/specs/mods/voucher/04_state.md',
+                '/specs/mods/voucher/05_events.md',
               ],
             },
           ],
         },
         {
-          text: 'Module Development',
+          text: 'Example Apps',
+          children: [
+            '/specs/bion-poa/index.md',
+            '/specs/bion-pos/index.md',
+          ],
+        },
+        {
+          text: 'Example Modules',
           children: [
             {
               text: 'Example Module',
               collapsible: true,
               children: [
-                '/specs/example/index.md',
-                '/specs/example/01_concepts.md',
-                '/specs/example/02_msg.md',
-                '/specs/example/03_query.md',
-                '/specs/example/04_state.md',
-                '/specs/example/05_events.md',
+                '/specs/mods/example/index.md',
+                '/specs/mods/example/01_concepts.md',
+                '/specs/mods/example/02_msg.md',
+                '/specs/mods/example/03_query.md',
+                '/specs/mods/example/04_state.md',
+                '/specs/mods/example/05_events.md',
               ],
             },
           ],

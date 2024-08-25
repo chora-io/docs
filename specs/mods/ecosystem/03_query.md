@@ -1,12 +1,12 @@
 # Query Service
 
-The `subject` module provides a query service for querying the state of the module.
+The `ecosystem` module provides a query service for querying the state of the module.
 
 ## Draft Definitions
 
-`QuerySubject` - query subject by subject id
+`QueryEcosystem` - query ecosystem by ecosystem id
 
-`QuerySubjects` - query all subjects with pagination
+`QueryEcosystems` - query all ecosystems with pagination
 
 ## Proto Definitions
 

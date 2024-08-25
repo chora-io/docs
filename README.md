@@ -4,5 +4,5 @@ user guides and technical specifications
 
 ## Prerequisites
 
-- [Node >= 18.12](https://nodejs.org/en/download/package-manager)
-- [Yarn >= 1.22](https://classic.yarnpkg.com/en/docs/install)
+- [Bun >= 1.1](https://bun.sh/)
+- [Node >= 21](https://nodejs.org/en/download/package-manager)

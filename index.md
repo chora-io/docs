@@ -1,5 +1,6 @@
 ---
 home: true
+heroText: chora documentation
 heroImage: images/chora_trans_light_small.png
 heroImageDark: images/chora_trans_dark_small.png
 features:

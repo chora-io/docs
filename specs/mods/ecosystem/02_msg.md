@@ -1,14 +1,14 @@
 # Msg Service
 
-The `subject` module provides a message service for interacting with the state of the module.
+The `ecosystem` module provides a message service for interacting with the state of the module.
 
 ## Draft Definitions
 
-`MsgCreateSubject` - create subject
+`MsgCreateEcosystem` - create ecosystem
 
-`MsgRemoveSubject` - remove subject
+`MsgRemoveEcosystem` - remove ecosystem
 
-`MsgUpdateSubject` - update subject 
+`MsgUpdateEcosystem` - update ecosystem 
 
 ## Proto Definitions
 
