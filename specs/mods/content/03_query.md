@@ -1,6 +1,6 @@
 # Query Service
 
-The `example` module provides a query service for querying the state of the module.
+The `content` module provides a query service for querying the state of the module.
 
 ## Proto Definitions
 

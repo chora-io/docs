@@ -6,7 +6,7 @@ SPECS_DIR=./specs
 
 CHORA_ADMIN_VERSION=015ffa80b358bd3e140f0ea79749b1fd1d7609c5
 CHORA_AGENT_VERSION=015ffa80b358bd3e140f0ea79749b1fd1d7609c5
-CHORA_EXAMPLE_VERSION=015ffa80b358bd3e140f0ea79749b1fd1d7609c5
+CHORA_CONTENT_VERSION=015ffa80b358bd3e140f0ea79749b1fd1d7609c5
 CHORA_GOVERNOR_VERSION=015ffa80b358bd3e140f0ea79749b1fd1d7609c5
 CHORA_PROPOSAL_VERSION=015ffa80b358bd3e140f0ea79749b1fd1d7609c5
 CHORA_VALIDATOR_VERSION=015ffa80b358bd3e140f0ea79749b1fd1d7609c5
@@ -14,7 +14,7 @@ CHORA_VOUCHER_VERSION=015ffa80b358bd3e140f0ea79749b1fd1d7609c5
 
 CHORA_ADMIN_URL=https://raw.githubusercontent.com/chora-io/mods/${CHORA_ADMIN_VERSION}/admin/spec
 CHORA_AGENT_URL=https://raw.githubusercontent.com/chora-io/mods/${CHORA_AGENT_VERSION}/agent/spec
-CHORA_EXAMPLE_URL=https://raw.githubusercontent.com/chora-io/mods/${CHORA_EXAMPLE_VERSION}/example/spec
+CHORA_CONTENT_URL=https://raw.githubusercontent.com/chora-io/mods/${CHORA_CONTENT_VERSION}/content/spec
 CHORA_GOVERNOR_URL=https://raw.githubusercontent.com/chora-io/mods/${CHORA_GOVERNOR_VERSION}/governor/spec
 CHORA_PROPOSAL_URL=https://raw.githubusercontent.com/chora-io/mods/${CHORA_PROPOSAL_VERSION}/governor/spec
 CHORA_VALIDATOR_URL=https://raw.githubusercontent.com/chora-io/mods/${CHORA_VALIDATOR_VERSION}/validator/spec
@@ -39,7 +39,7 @@ gen_module_docs() {
 
 gen_module_docs "admin" $CHORA_ADMIN_URL
 gen_module_docs "agent" $CHORA_AGENT_URL
-gen_module_docs "example" $CHORA_EXAMPLE_URL
+gen_module_docs "content" $CHORA_CONTENT_URL
 gen_module_docs "governor" $CHORA_GOVERNOR_URL
 gen_module_docs "proposal" $CHORA_PROPOSAL_URL
 gen_module_docs "validator" $CHORA_VALIDATOR_URL

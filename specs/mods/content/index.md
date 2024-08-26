@@ -1,6 +1,6 @@
 # Overview
 
-The `example` module is an example module used as a specification for module development. The example module is not intended for use in a production environment.
+The `content` module enables the creation and management of content.
 
 ## Contents
 

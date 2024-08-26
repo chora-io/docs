@@ -1,6 +1,6 @@
 # Events
 
-The `example` module emits events upon the successful execution of messages.
+The `content` module emits events upon the successful execution of messages.
 
 ## Proto Definitions
 

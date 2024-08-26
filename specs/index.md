@@ -14,20 +14,15 @@ Specifications for Chora blockchain application modules:
 
 - [Admin Module](mods/admin/index.md)
 - [Agent Module](mods/agent/index.md)
+- [Content Module](mods/content/index.md)
 - [Governor Module](mods/governor/index.md)
 - [Proposal Module](mods/proposal/index.md)
 - [Validator Module](mods/validator/index.md)
 - [Voucher Module](mods/voucher/index.md)
 
-## Example Apps
+## Blockchain Templates
 
-Specifications for example blockchain applications:
+Specifications for blockchain application templates:
 
 - [Bion PoS Example](./bion-pos/index.md)
 - [Bion PoA Example](./bion-poa/index.md)
-
-## Example Modules
-
-Specifications for example blockchain modules:
-
-- [Example Module](mods/example/index.md)

@@ -103,6 +103,10 @@ export default defineUserConfig({
                 link: '/specs/mods/agent/index.md',
               },
               {
+                text: 'Content Module',
+                link: '/specs/mods/content/index.md',
+              },
+              {
                 text: 'Governor Module',
                 link: '/specs/mods/governor/index.md',
               },
@@ -121,7 +125,7 @@ export default defineUserConfig({
             ],
           },
           {
-            text: 'Examples Apps',
+            text: 'Blockchain Templates',
             children: [
               {
                 text: 'Bion PoS Example',
@@ -130,15 +134,6 @@ export default defineUserConfig({
               {
                 text: 'Bion PoA Example',
                 link: '/specs/bion-poa/index.md',
-              },
-            ],
-          },
-          {
-            text: 'Example Modules',
-            children: [
-              {
-                text: 'Example Module',
-                link: '/specs/mods/example/index.md',
               },
             ],
           },
@@ -231,6 +226,18 @@ export default defineUserConfig({
               ],
             },
             {
+              text: 'Content Module',
+              collapsible: true,
+              children: [
+                '/specs/mods/content/index.md',
+                '/specs/mods/content/01_concepts.md',
+                '/specs/mods/content/02_msg.md',
+                '/specs/mods/content/03_query.md',
+                '/specs/mods/content/04_state.md',
+                '/specs/mods/content/05_events.md',
+              ],
+            },
+            {
               text: 'Governor Module',
               collapsible: true,
               children: [
@@ -281,27 +288,10 @@ export default defineUserConfig({
           ],
         },
         {
-          text: 'Example Apps',
+          text: 'Blockchain Templates',
           children: [
             '/specs/bion-pos/index.md',
             '/specs/bion-poa/index.md',
-          ],
-        },
-        {
-          text: 'Example Modules',
-          children: [
-            {
-              text: 'Example Module',
-              collapsible: true,
-              children: [
-                '/specs/mods/example/index.md',
-                '/specs/mods/example/01_concepts.md',
-                '/specs/mods/example/02_msg.md',
-                '/specs/mods/example/03_query.md',
-                '/specs/mods/example/04_state.md',
-                '/specs/mods/example/05_events.md',
-              ],
-            },
           ],
         },
       ],

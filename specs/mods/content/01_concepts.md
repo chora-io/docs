@@ -6,4 +6,4 @@ The admin is the account that has permission to update module parameters. Module
 
 ## Content
 
-Content is the on-chain representation of any type of content.
+Content is any content that can be represented by a content hash.
