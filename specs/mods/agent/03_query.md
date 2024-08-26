@@ -1,12 +1,12 @@
 # Query Service
 
-The `ecosystem` module provides a query service for querying the state of the module.
+The `agent` module provides a query service for querying the state of the module.
 
 ## Draft Definitions
 
-`QueryEcosystem` - query ecosystem by ecosystem id
+`QueryAgent` - query agent by agent id
 
-`QueryEcosystems` - query all ecosystems with pagination
+`QueryAgents` - query all agents with pagination
 
 ## Proto Definitions
 

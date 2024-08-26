@@ -1,14 +1,14 @@
 # Events
 
-The `ecosystem` module emits events upon the successful execution of messages.
+The `agent` module emits events upon the successful execution of messages.
 
 ## Draft Definitions
 
-`EventCreateEcosystem` - an event emitted when a ecosystem is created
+`EventCreateAgent` - an event emitted when an agent is created
 
-`EventRemoveEcosystem` - an event emitted when a ecosystem is removed
+`EventRemoveAgent` - an event emitted when an agent is removed
 
-`EventUpdateEcosystem` - an event emitted when a ecosystem is updated
+`EventUpdateAgent` - an event emitted when an agent is updated
 
 ## Proto Definitions
 

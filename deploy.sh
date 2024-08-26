@@ -2,7 +2,7 @@
 
 set -e
 
-yarn build
+bun run build
 
 cd .vuepress/dist
 

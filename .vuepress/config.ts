@@ -99,8 +99,8 @@ export default defineUserConfig({
                 link: '/specs/mods/admin/index.md',
               },
               {
-                text: 'Ecosystem Module',
-                link: '/specs/mods/ecosystem/index.md',
+                text: 'Agent Module',
+                link: '/specs/mods/agent/index.md',
               },
               {
                 text: 'Governor Module',
@@ -124,12 +124,12 @@ export default defineUserConfig({
             text: 'Examples Apps',
             children: [
               {
-                text: 'Bion PoA Example',
-                link: '/specs/bion-poa/index.md',
-              },
-              {
                 text: 'Bion PoS Example',
                 link: '/specs/bion-pos/index.md',
+              },
+              {
+                text: 'Bion PoA Example',
+                link: '/specs/bion-poa/index.md',
               },
             ],
           },
@@ -219,15 +219,15 @@ export default defineUserConfig({
               ],
             },
             {
-              text: 'Ecosystem Module',
+              text: 'Agent Module',
               collapsible: true,
               children: [
-                '/specs/mods/ecosystem/index.md',
-                '/specs/mods/ecosystem/01_concepts.md',
-                '/specs/mods/ecosystem/02_msg.md',
-                '/specs/mods/ecosystem/03_query.md',
-                '/specs/mods/ecosystem/04_state.md',
-                '/specs/mods/ecosystem/05_events.md',
+                '/specs/mods/agent/index.md',
+                '/specs/mods/agent/01_concepts.md',
+                '/specs/mods/agent/02_msg.md',
+                '/specs/mods/agent/03_query.md',
+                '/specs/mods/agent/04_state.md',
+                '/specs/mods/agent/05_events.md',
               ],
             },
             {
@@ -283,8 +283,8 @@ export default defineUserConfig({
         {
           text: 'Example Apps',
           children: [
-            '/specs/bion-poa/index.md',
             '/specs/bion-pos/index.md',
+            '/specs/bion-poa/index.md',
           ],
         },
         {

@@ -1,12 +1,12 @@
 # State
 
-The `ecosystem` module uses the `orm` module as an abstraction layer over the `KVStore` that enables the creation of database tables with primary and secondary keys.
+The `agent` module uses the `orm` module as an abstraction layer over the `KVStore` that enables the creation of database tables with primary and secondary keys.
 
 For more information about the `orm` module, see [Cosmos SDK ADR 055: ORM](https://docs.cosmos.network/main/architecture/adr-055-orm).
 
 ## Draft Definitions
 
-`Ecosystem` - the on-chain representation of an ecological ecosystem
+`Agent` - the agent representing an ecosystem or ecological subject
 
 ## Proto Definitions
 

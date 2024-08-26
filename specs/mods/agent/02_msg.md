@@ -1,14 +1,14 @@
 # Msg Service
 
-The `ecosystem` module provides a message service for interacting with the state of the module.
+The `agent` module provides a message service for interacting with the state of the module.
 
 ## Draft Definitions
 
-`MsgCreateEcosystem` - create ecosystem
+`MsgCreateAgent` - create agent
 
-`MsgRemoveEcosystem` - remove ecosystem
+`MsgRemoveAgent` - remove agent
 
-`MsgUpdateEcosystem` - update ecosystem 
+`MsgUpdateAgent` - update agent 
 
 ## Proto Definitions
 
