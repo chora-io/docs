@@ -2,21 +2,21 @@
 
 set -e
 
-SPECS_DIR=./specs
+SPECS_DIR=./specs/mods
 
-CHORA_ADMIN_VERSION=015ffa80b358bd3e140f0ea79749b1fd1d7609c5
-CHORA_AGENT_VERSION=015ffa80b358bd3e140f0ea79749b1fd1d7609c5
-CHORA_CONTENT_VERSION=015ffa80b358bd3e140f0ea79749b1fd1d7609c5
-CHORA_GOVERNOR_VERSION=015ffa80b358bd3e140f0ea79749b1fd1d7609c5
-CHORA_PROPOSAL_VERSION=015ffa80b358bd3e140f0ea79749b1fd1d7609c5
-CHORA_VALIDATOR_VERSION=015ffa80b358bd3e140f0ea79749b1fd1d7609c5
-CHORA_VOUCHER_VERSION=015ffa80b358bd3e140f0ea79749b1fd1d7609c5
+CHORA_ADMIN_VERSION=cde4282e6ded511da449f3e908a3fbd4c2ea8601
+CHORA_AGENT_VERSION=cde4282e6ded511da449f3e908a3fbd4c2ea8601
+CHORA_CONTENT_VERSION=cde4282e6ded511da449f3e908a3fbd4c2ea8601
+CHORA_GOVERNOR_VERSION=cde4282e6ded511da449f3e908a3fbd4c2ea8601
+CHORA_PROPOSAL_VERSION=cde4282e6ded511da449f3e908a3fbd4c2ea8601
+CHORA_VALIDATOR_VERSION=cde4282e6ded511da449f3e908a3fbd4c2ea8601
+CHORA_VOUCHER_VERSION=cde4282e6ded511da449f3e908a3fbd4c2ea8601
 
 CHORA_ADMIN_URL=https://raw.githubusercontent.com/chora-io/mods/${CHORA_ADMIN_VERSION}/admin/spec
 CHORA_AGENT_URL=https://raw.githubusercontent.com/chora-io/mods/${CHORA_AGENT_VERSION}/agent/spec
 CHORA_CONTENT_URL=https://raw.githubusercontent.com/chora-io/mods/${CHORA_CONTENT_VERSION}/content/spec
 CHORA_GOVERNOR_URL=https://raw.githubusercontent.com/chora-io/mods/${CHORA_GOVERNOR_VERSION}/governor/spec
-CHORA_PROPOSAL_URL=https://raw.githubusercontent.com/chora-io/mods/${CHORA_PROPOSAL_VERSION}/governor/spec
+CHORA_PROPOSAL_URL=https://raw.githubusercontent.com/chora-io/mods/${CHORA_PROPOSAL_VERSION}/proposal/spec
 CHORA_VALIDATOR_URL=https://raw.githubusercontent.com/chora-io/mods/${CHORA_VALIDATOR_VERSION}/validator/spec
 CHORA_VOUCHER_URL=https://raw.githubusercontent.com/chora-io/mods/${CHORA_VOUCHER_VERSION}/voucher/spec
 
