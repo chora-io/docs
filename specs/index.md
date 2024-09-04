@@ -10,7 +10,7 @@ Specification for Chora blockchain application:
 
 ## Blockchain Modules
 
-Specifications for Chora blockchain application modules:
+Specifications for blockchain application modules:
 
 - [Admin Module](mods/admin/index.md)
 - [Agent Module](mods/agent/index.md)
@@ -24,5 +24,5 @@ Specifications for Chora blockchain application modules:
 
 Specifications for blockchain application templates:
 
-- [Bion PoS Example](./bion-pos/index.md)
 - [Bion PoA Example](./bion-poa/index.md)
+- [Bion PoS Example](./bion-pos/index.md)

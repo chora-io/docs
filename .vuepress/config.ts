@@ -128,12 +128,12 @@ export default defineUserConfig({
             text: 'Blockchain Templates',
             children: [
               {
-                text: 'Bion PoS Example',
-                link: '/specs/bion-pos/index.md',
-              },
-              {
                 text: 'Bion PoA Example',
                 link: '/specs/bion-poa/index.md',
+              },
+              {
+                text: 'Bion PoS Example',
+                link: '/specs/bion-pos/index.md',
               },
             ],
           },
@@ -290,8 +290,8 @@ export default defineUserConfig({
         {
           text: 'Blockchain Templates',
           children: [
-            '/specs/bion-pos/index.md',
             '/specs/bion-poa/index.md',
+            '/specs/bion-pos/index.md',
           ],
         },
       ],
