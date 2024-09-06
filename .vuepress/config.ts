@@ -99,10 +99,6 @@ export default defineUserConfig({
                 link: '/specs/mods/admin/index.md',
               },
               {
-                text: 'Agent Module',
-                link: '/specs/mods/agent/index.md',
-              },
-              {
                 text: 'Content Module',
                 link: '/specs/mods/content/index.md',
               },
@@ -113,6 +109,10 @@ export default defineUserConfig({
               {
                 text: 'Proposal Module',
                 link: '/specs/mods/proposal/index.md',
+              },
+              {
+                text: 'Subject Module',
+                link: '/specs/mods/subject/index.md',
               },
               {
                 text: 'Validator Module',
@@ -214,18 +214,6 @@ export default defineUserConfig({
               ],
             },
             {
-              text: 'Agent Module',
-              collapsible: true,
-              children: [
-                '/specs/mods/agent/index.md',
-                '/specs/mods/agent/01_concepts.md',
-                '/specs/mods/agent/02_msg.md',
-                '/specs/mods/agent/03_query.md',
-                '/specs/mods/agent/04_state.md',
-                '/specs/mods/agent/05_events.md',
-              ],
-            },
-            {
               text: 'Content Module',
               collapsible: true,
               children: [
@@ -259,6 +247,18 @@ export default defineUserConfig({
                 '/specs/mods/proposal/03_query.md',
                 '/specs/mods/proposal/04_state.md',
                 '/specs/mods/proposal/05_events.md',
+              ],
+            },
+            {
+              text: 'Subject Module',
+              collapsible: true,
+              children: [
+                '/specs/mods/subject/index.md',
+                '/specs/mods/subject/01_concepts.md',
+                '/specs/mods/subject/02_msg.md',
+                '/specs/mods/subject/03_query.md',
+                '/specs/mods/subject/04_state.md',
+                '/specs/mods/subject/05_events.md',
               ],
             },
             {

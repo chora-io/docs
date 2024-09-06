@@ -13,10 +13,10 @@ Specification for Chora blockchain application:
 Specifications for blockchain application modules:
 
 - [Admin Module](mods/admin/index.md)
-- [Agent Module](mods/agent/index.md)
 - [Content Module](mods/content/index.md)
 - [Governor Module](mods/governor/index.md)
 - [Proposal Module](mods/proposal/index.md)
+- [Subject Module](mods/subject/index.md)
 - [Validator Module](mods/validator/index.md)
 - [Voucher Module](mods/voucher/index.md)
 
