@@ -9,3 +9,4 @@ The `subject` module enables the creation and management of subjects, accounts t
 3. [Query Service](03_query.md)
 4. [State](04_state.md)
 5. [Events](05_events.md)
+6. [Features](features.md)
